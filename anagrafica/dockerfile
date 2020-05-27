@@ -1,0 +1,5 @@
+
+FROM openjdk:11
+ARG JAR_FILE=target/*.jar
+COPY ${JAR_FILE} anagrafica.jar
+ENTRYPOINT ["java","-jar", "-Dspring.profiles.active=svi","anagrafica.jar"]

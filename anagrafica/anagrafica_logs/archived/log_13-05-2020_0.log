@@ -1,0 +1,408 @@
+13-05-2020 14:34:14.146 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStartupProfileInfo - The following profiles are active: svi
+13-05-2020 14:34:20.281 [main  /  / / ] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=f2405e16-1b12-330f-bf63-69547d5a7810
+13-05-2020 14:34:22.342 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+13-05-2020 14:34:22.374 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8082"]
+13-05-2020 14:34:22.410 [main  /  / / ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+13-05-2020 14:34:22.410 [main  /  / / ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+13-05-2020 14:34:22.692 [main  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+13-05-2020 14:34:22.702 [main  /  / / ] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 8449 ms
+13-05-2020 14:34:24.804 [main  /  / / ] WARN  o.s.c.s.z.ZipkinAutoConfiguration.logCheckResult - Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@6501b105}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)}]
+13-05-2020 14:34:25.168 [main  /  / / ] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.init - Filter 'logFilter' configured for use
+13-05-2020 14:34:26.918 [main  /  / / ] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+13-05-2020 14:34:27.186 [main  /  / / ] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+13-05-2020 14:34:28.101 [main  /  / / ] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+13-05-2020 14:34:30.151 [main  /  / / ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+13-05-2020 14:34:30.167 [main  /  / / ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+13-05-2020 14:34:30.209 [main  /  / / ] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+13-05-2020 14:34:30.703 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8082"]
+13-05-2020 14:34:30.840 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8082 (http) with context path ''
+13-05-2020 14:34:30.952 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStarted - Started AnagraficaApplication in 20.454 seconds (JVM running for 22.349)
+13-05-2020 14:34:31.576 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13-05-2020 14:34:31.578 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+13-05-2020 14:34:31.639 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 59 ms
+13-05-2020 14:38:58.940 [http-nio-8082-exec-1  / magarellic / 29e0fbca4a128580/ 2aa6b0f97c877bf9] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.beforeRequest - REQUEST DATA BEFORE :GET /api/anagrafica/E885588, headers=[accept-encoding:"gzip", user-agent:"ReactorNetty/0.9.6.RELEASE", host:"localhost:8082", accept:"*/*", requestid:"77788889999", userid:"magarellic", x-b3-traceid:"29e0fbca4a128580", x-b3-spanid:"2aa6b0f97c877bf9", x-b3-parentspanid:"29e0fbca4a128580", x-b3-sampled:"1"]]
+13-05-2020 14:38:58.987 [http-nio-8082-exec-1  / magarellic / 29e0fbca4a128580/ 2aa6b0f97c877bf9] INFO  i.z.a.c.AnagraficaController.getCliente - Sono nell' AnagraficaController del service : anagrafica
+13-05-2020 14:38:58.988 [http-nio-8082-exec-1  / magarellic / 29e0fbca4a128580/ 2aa6b0f97c877bf9] INFO  i.z.a.c.AnagraficaController.getCliente - Anagrafica  : E885588
+13-05-2020 14:38:59.088 [http-nio-8082-exec-1  / magarellic / 29e0fbca4a128580/ 2aa6b0f97c877bf9] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.afterRequest - REQUEST DATA AFTER: GET /api/anagrafica/E885588, headers=[accept-encoding:"gzip", user-agent:"ReactorNetty/0.9.6.RELEASE", host:"localhost:8082", accept:"*/*", requestid:"77788889999", userid:"magarellic", x-b3-traceid:"29e0fbca4a128580", x-b3-spanid:"2aa6b0f97c877bf9", x-b3-parentspanid:"29e0fbca4a128580", x-b3-sampled:"1"]]
+13-05-2020 14:38:59.995 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@6501b105}  /  / / ] WARN  z.r.AsyncReporter$BoundedAsyncReporter.flush - Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+13-05-2020 14:38:59.999 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@6501b105}  /  / / ] WARN  z.r.AsyncReporter$BoundedAsyncReporter.flush - Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused))
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:748)
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:641)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:129)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:142)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:132)
+	at zipkin2.Call$Base.execute(Call.java:380)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:284)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:358)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1248)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:739)
+	... 9 common frames omitted
+13-05-2020 14:41:35.095 [RMI TCP Connection(20)-127.0.0.1  /  / / ] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+13-05-2020 14:41:35.119 [RMI TCP Connection(20)-127.0.0.1  /  / / ] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+13-05-2020 14:41:36.111 [RMI TCP Connection(20)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-8082"]
+13-05-2020 14:41:36.119 [RMI TCP Connection(20)-127.0.0.1  /  / / ] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+13-05-2020 14:41:36.122 [RMI TCP Connection(20)-127.0.0.1  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Destroying Spring FrameworkServlet 'dispatcherServlet'
+13-05-2020 14:41:36.144 [RMI TCP Connection(20)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8082"]
+13-05-2020 14:41:36.161 [RMI TCP Connection(20)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-8082"]
+13-05-2020 14:42:01.032 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStartupProfileInfo - The following profiles are active: svi
+13-05-2020 14:42:05.793 [main  /  / / ] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=f2405e16-1b12-330f-bf63-69547d5a7810
+13-05-2020 14:42:07.815 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+13-05-2020 14:42:07.826 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8082"]
+13-05-2020 14:42:07.827 [main  /  / / ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+13-05-2020 14:42:07.828 [main  /  / / ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+13-05-2020 14:42:08.166 [main  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+13-05-2020 14:42:08.169 [main  /  / / ] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 7010 ms
+13-05-2020 14:42:10.572 [main  /  / / ] WARN  o.s.c.s.z.ZipkinAutoConfiguration.logCheckResult - Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@740c4868}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)}]
+13-05-2020 14:42:11.193 [main  /  / / ] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.init - Filter 'logFilter' configured for use
+13-05-2020 14:42:13.647 [main  /  / / ] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+13-05-2020 14:42:14.223 [main  /  / / ] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+13-05-2020 14:42:15.204 [main  /  / / ] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+13-05-2020 14:42:18.671 [main  /  / / ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+13-05-2020 14:42:18.735 [main  /  / / ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+13-05-2020 14:42:18.948 [main  /  / / ] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+13-05-2020 14:42:20.034 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8082"]
+13-05-2020 14:42:20.060 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13-05-2020 14:42:20.071 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+13-05-2020 14:42:20.177 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8082 (http) with context path ''
+13-05-2020 14:42:20.214 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 142 ms
+13-05-2020 14:42:20.357 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStarted - Started AnagraficaApplication in 24.051 seconds (JVM running for 26.468)
+13-05-2020 15:17:14.653 [RMI TCP Connection(54)-127.0.0.1  /  / / ] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+13-05-2020 15:17:14.696 [RMI TCP Connection(54)-127.0.0.1  /  / / ] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+13-05-2020 15:17:15.694 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@740c4868}  /  / / ] WARN  z.r.AsyncReporter$BoundedAsyncReporter.flush - Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+13-05-2020 15:17:15.696 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@740c4868}  /  / / ] WARN  z.r.AsyncReporter$BoundedAsyncReporter.flush - Dropped 0 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused))
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:748)
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:641)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:129)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:142)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:132)
+	at zipkin2.Call$Base.execute(Call.java:380)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:284)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:358)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1248)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:739)
+	... 9 common frames omitted
+13-05-2020 15:17:15.719 [RMI TCP Connection(54)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-8082"]
+13-05-2020 15:17:15.743 [RMI TCP Connection(54)-127.0.0.1  /  / / ] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+13-05-2020 15:17:15.761 [RMI TCP Connection(54)-127.0.0.1  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Destroying Spring FrameworkServlet 'dispatcherServlet'
+13-05-2020 15:17:15.783 [RMI TCP Connection(54)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8082"]
+13-05-2020 15:17:15.811 [RMI TCP Connection(54)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-8082"]
+13-05-2020 15:17:34.759 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStartupProfileInfo - The following profiles are active: svi
+13-05-2020 15:17:37.978 [main  /  / / ] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=3795d6e6-c483-3e69-bd77-14b095055ad5
+13-05-2020 15:17:39.763 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+13-05-2020 15:17:39.797 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8082"]
+13-05-2020 15:17:39.798 [main  /  / / ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+13-05-2020 15:17:39.799 [main  /  / / ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+13-05-2020 15:17:40.249 [main  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+13-05-2020 15:17:40.250 [main  /  / / ] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 5404 ms
+13-05-2020 15:17:42.443 [main  /  / / ] WARN  o.s.c.s.z.ZipkinAutoConfiguration.logCheckResult - Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@27dc335a}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)}]
+13-05-2020 15:17:43.025 [main  /  / / ] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.init - Filter 'logFilter' configured for use
+13-05-2020 15:17:45.160 [main  /  / / ] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+13-05-2020 15:17:45.670 [main  /  / / ] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+13-05-2020 15:17:46.426 [main  /  / / ] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+13-05-2020 15:17:48.269 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13-05-2020 15:17:48.287 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+13-05-2020 15:17:48.487 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 200 ms
+13-05-2020 15:17:49.425 [main  /  / / ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+13-05-2020 15:17:49.506 [main  /  / / ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+13-05-2020 15:17:49.821 [main  /  / / ] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+13-05-2020 15:17:50.527 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8082"]
+13-05-2020 15:17:50.700 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8082 (http) with context path ''
+13-05-2020 15:17:50.780 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStarted - Started AnagraficaApplication in 18.547 seconds (JVM running for 21.617)
+13-05-2020 15:19:07.850 [http-nio-8082-exec-2 magarellic / 7888974152185412 / a1f953ec5ebd9aae/ a1f953ec5ebd9aae] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.beforeRequest - REQUEST DATA BEFORE :POST /api/anagrafica/1111, headers=[requestid:"7888974152185412", userid:"magarellic", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"a508cfcb-d04e-46a5-bf40-8d03d4f199f0", host:"localhost:8082", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"]]
+13-05-2020 15:19:07.982 [http-nio-8082-exec-2 magarellic / 7888974152185412 / a1f953ec5ebd9aae/ a1f953ec5ebd9aae] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver.logException - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+13-05-2020 15:19:08.008 [http-nio-8082-exec-2 magarellic / 7888974152185412 / a1f953ec5ebd9aae/ a1f953ec5ebd9aae] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.afterRequest - REQUEST DATA AFTER: POST /api/anagrafica/1111, headers=[requestid:"7888974152185412", userid:"magarellic", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"a508cfcb-d04e-46a5-bf40-8d03d4f199f0", host:"localhost:8082", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"]]
+13-05-2020 15:19:08.446 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@27dc335a}  /  / / ] WARN  z.r.AsyncReporter$BoundedAsyncReporter.flush - Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+13-05-2020 15:19:08.460 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@27dc335a}  /  / / ] WARN  z.r.AsyncReporter$BoundedAsyncReporter.flush - Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused))
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:748)
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:641)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:129)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:142)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:132)
+	at zipkin2.Call$Base.execute(Call.java:380)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:284)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:358)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1248)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:739)
+	... 9 common frames omitted
+13-05-2020 15:20:34.150 [http-nio-8082-exec-5 magarellic / 7888974152185412 / e93ef2435892b39b/ e93ef2435892b39b] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.beforeRequest - REQUEST DATA BEFORE :GET /api/anagrafica/1111, headers=[requestid:"7888974152185412", userid:"magarellic", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"340a9ffc-3996-40f1-9dfa-814acb43a235", host:"localhost:8082", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"]]
+13-05-2020 15:20:34.165 [http-nio-8082-exec-5 magarellic / 7888974152185412 / e93ef2435892b39b/ e93ef2435892b39b] INFO  i.z.a.c.AnagraficaController.getCliente - Sono nell' AnagraficaController del service : anagrafica
+13-05-2020 15:20:34.166 [http-nio-8082-exec-5 magarellic / 7888974152185412 / e93ef2435892b39b/ e93ef2435892b39b] INFO  i.z.a.c.AnagraficaController.getCliente - Anagrafica  : 1111
+13-05-2020 15:20:34.189 [http-nio-8082-exec-5 magarellic / 7888974152185412 / e93ef2435892b39b/ e93ef2435892b39b] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.afterRequest - REQUEST DATA AFTER: GET /api/anagrafica/1111, headers=[requestid:"7888974152185412", userid:"magarellic", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"340a9ffc-3996-40f1-9dfa-814acb43a235", host:"localhost:8082", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"]]
+13-05-2020 15:23:36.058 [RMI TCP Connection(16)-127.0.0.1  /  / / ] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+13-05-2020 15:23:36.234 [RMI TCP Connection(16)-127.0.0.1  /  / / ] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+13-05-2020 15:23:36.611 [RMI TCP Connection(16)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-8082"]
+13-05-2020 15:23:36.616 [RMI TCP Connection(16)-127.0.0.1  /  / / ] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+13-05-2020 15:23:36.631 [RMI TCP Connection(16)-127.0.0.1  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Destroying Spring FrameworkServlet 'dispatcherServlet'
+13-05-2020 15:23:36.659 [RMI TCP Connection(16)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8082"]
+13-05-2020 15:23:36.701 [RMI TCP Connection(16)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-8082"]
+13-05-2020 15:24:14.357 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStartupProfileInfo - The following profiles are active: svi
+13-05-2020 15:24:17.771 [main  /  / / ] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=3795d6e6-c483-3e69-bd77-14b095055ad5
+13-05-2020 15:24:19.846 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+13-05-2020 15:24:19.868 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8082"]
+13-05-2020 15:24:19.869 [main  /  / / ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+13-05-2020 15:24:19.871 [main  /  / / ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+13-05-2020 15:24:20.039 [main  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+13-05-2020 15:24:20.041 [main  /  / / ] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 5657 ms
+13-05-2020 15:24:21.788 [main  /  / / ] WARN  o.s.c.s.z.ZipkinAutoConfiguration.logCheckResult - Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@13ee97af}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)}]
+13-05-2020 15:24:22.222 [main  /  / / ] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.init - Filter 'logFilter' configured for use
+13-05-2020 15:24:23.505 [main  /  / / ] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+13-05-2020 15:24:23.917 [main  /  / / ] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+13-05-2020 15:24:24.455 [main  /  / / ] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+13-05-2020 15:24:27.214 [main  /  / / ] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+13-05-2020 15:24:27.932 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13-05-2020 15:24:27.944 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+13-05-2020 15:24:28.028 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 83 ms
+13-05-2020 15:24:28.296 [main  /  / / ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+13-05-2020 15:24:28.363 [main  /  / / ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+13-05-2020 15:24:28.607 [main  /  / / ] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+13-05-2020 15:24:29.300 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8082"]
+13-05-2020 15:24:29.350 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8082 (http) with context path ''
+13-05-2020 15:24:29.417 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStarted - Started AnagraficaApplication in 17.955 seconds (JVM running for 20.086)
+13-05-2020 15:24:51.679 [http-nio-8082-exec-5 magarellic / 7888974152185412 / 40fb1e428c5358b8/ 40fb1e428c5358b8] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.beforeRequest - REQUEST DATA BEFORE :GET /api/anagrafica/1111, headers=[requestid:"7888974152185412", userid:"magarellic", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"c175d144-67f8-4ec8-92f3-ad68936b1420", host:"localhost:8082", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"]]
+13-05-2020 15:24:59.143 [http-nio-8082-exec-5 magarellic / 7888974152185412 / 40fb1e428c5358b8/ 40fb1e428c5358b8] INFO  i.z.a.c.GenericHandlerInterceptor.preHandle - INTERCEPTOR PREHANDLE CALLED
+13-05-2020 15:25:07.047 [http-nio-8082-exec-5 magarellic / 7888974152185412 / 40fb1e428c5358b8/ 40fb1e428c5358b8] INFO  i.z.a.c.AnagraficaController.getCliente - Sono nell' AnagraficaController del service : anagrafica
+13-05-2020 15:25:07.049 [http-nio-8082-exec-5 magarellic / 7888974152185412 / 40fb1e428c5358b8/ 40fb1e428c5358b8] INFO  i.z.a.c.AnagraficaController.getCliente - Anagrafica  : 1111
+13-05-2020 15:25:07.199 [http-nio-8082-exec-5 magarellic / 7888974152185412 / 40fb1e428c5358b8/ 40fb1e428c5358b8] INFO  i.z.a.c.GenericHandlerInterceptor.postHandle - INTERCEPTOR POSTHANDLE CALLED
+13-05-2020 15:25:07.200 [http-nio-8082-exec-5 magarellic / 7888974152185412 / 40fb1e428c5358b8/ 40fb1e428c5358b8] INFO  i.z.a.c.GenericHandlerInterceptor.afterCompletion - INTERCEPTOR AFTERCOMPLETION CALLED
+13-05-2020 15:25:07.205 [http-nio-8082-exec-5 magarellic / 7888974152185412 / 40fb1e428c5358b8/ 40fb1e428c5358b8] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.afterRequest - REQUEST DATA AFTER: GET /api/anagrafica/1111, headers=[requestid:"7888974152185412", userid:"magarellic", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"c175d144-67f8-4ec8-92f3-ad68936b1420", host:"localhost:8082", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"]]
+13-05-2020 15:25:07.827 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@13ee97af}  /  / / ] WARN  z.r.AsyncReporter$BoundedAsyncReporter.flush - Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+13-05-2020 15:25:07.842 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@13ee97af}  /  / / ] WARN  z.r.AsyncReporter$BoundedAsyncReporter.flush - Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused))
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:748)
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:641)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:129)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:142)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:132)
+	at zipkin2.Call$Base.execute(Call.java:380)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:284)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:358)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1248)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:739)
+	... 9 common frames omitted
+13-05-2020 15:40:49.707 [RMI TCP Connection(30)-127.0.0.1  /  / / ] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+13-05-2020 15:40:49.795 [RMI TCP Connection(30)-127.0.0.1  /  / / ] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+13-05-2020 15:40:50.244 [RMI TCP Connection(30)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-8082"]
+13-05-2020 15:40:50.295 [RMI TCP Connection(30)-127.0.0.1  /  / / ] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+13-05-2020 15:40:50.318 [RMI TCP Connection(30)-127.0.0.1  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Destroying Spring FrameworkServlet 'dispatcherServlet'
+13-05-2020 15:40:50.382 [RMI TCP Connection(30)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8082"]
+13-05-2020 15:40:50.441 [RMI TCP Connection(30)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-8082"]
+13-05-2020 16:06:05.520 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStartupProfileInfo - The following profiles are active: svi
+13-05-2020 16:06:08.469 [main  /  / / ] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=3795d6e6-c483-3e69-bd77-14b095055ad5
+13-05-2020 16:06:10.099 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+13-05-2020 16:06:10.118 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8082"]
+13-05-2020 16:06:10.120 [main  /  / / ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+13-05-2020 16:06:10.121 [main  /  / / ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+13-05-2020 16:06:10.321 [main  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+13-05-2020 16:06:10.323 [main  /  / / ] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4758 ms
+13-05-2020 16:06:11.927 [main  /  / / ] WARN  o.s.c.s.z.ZipkinAutoConfiguration.logCheckResult - Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@491893f8}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)}]
+13-05-2020 16:06:12.338 [main  /  / / ] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.init - Filter 'logFilter' configured for use
+13-05-2020 16:06:13.178 [main  /  / / ] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+13-05-2020 16:06:13.369 [main  /  / / ] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+13-05-2020 16:06:13.815 [main  /  / / ] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+13-05-2020 16:06:14.894 [main  /  / / ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+13-05-2020 16:06:14.920 [main  /  / / ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+13-05-2020 16:06:14.988 [main  /  / / ] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+13-05-2020 16:06:15.214 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8082"]
+13-05-2020 16:06:15.230 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8082 (http) with context path ''
+13-05-2020 16:06:15.294 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStarted - Started AnagraficaApplication in 13.013 seconds (JVM running for 14.712)
+13-05-2020 16:06:17.030 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13-05-2020 16:06:17.031 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+13-05-2020 16:06:17.050 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 19 ms
+13-05-2020 16:06:24.426 [http-nio-8082-exec-3 magarellic / 7888974152185412 / 8eb14fe2073d2ae9/ 8eb14fe2073d2ae9] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.beforeRequest - REQUEST DATA BEFORE :GET /api/anagrafica/1111, headers=[requestid:"7888974152185412", userid:"magarellic", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"2fd6d854-3121-4348-9535-20f50d704716", host:"localhost:8082", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"]]
+13-05-2020 16:06:24.441 [http-nio-8082-exec-3 magarellic / 7888974152185412 / 8eb14fe2073d2ae9/ 8eb14fe2073d2ae9] INFO  i.z.a.c.GenericHandlerInterceptor.preHandle - INTERCEPTOR PREHANDLE CALLED
+13-05-2020 16:06:24.497 [http-nio-8082-exec-3 magarellic / 7888974152185412 / 8eb14fe2073d2ae9/ 8eb14fe2073d2ae9] INFO  i.z.a.c.AnagraficaController.getCliente - Sono nell' AnagraficaController del service : anagrafica
+13-05-2020 16:06:24.498 [http-nio-8082-exec-3 magarellic / 7888974152185412 / 8eb14fe2073d2ae9/ 8eb14fe2073d2ae9] INFO  i.z.a.c.AnagraficaController.getCliente - Anagrafica  : 1111
+13-05-2020 16:06:24.677 [http-nio-8082-exec-3 magarellic / 7888974152185412 / 8eb14fe2073d2ae9/ 8eb14fe2073d2ae9] INFO  i.z.a.c.GenericHandlerInterceptor.postHandle - INTERCEPTOR POSTHANDLE CALLED
+13-05-2020 16:06:24.690 [http-nio-8082-exec-3 magarellic / 7888974152185412 / 8eb14fe2073d2ae9/ 8eb14fe2073d2ae9] INFO  i.z.a.c.GenericHandlerInterceptor.afterCompletion - INTERCEPTOR AFTERCOMPLETION CALLED
+13-05-2020 16:06:24.718 [http-nio-8082-exec-3 magarellic / 7888974152185412 / 8eb14fe2073d2ae9/ 8eb14fe2073d2ae9] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.afterRequest - REQUEST DATA AFTER: GET /api/anagrafica/1111, headers=[requestid:"7888974152185412", userid:"magarellic", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"2fd6d854-3121-4348-9535-20f50d704716", host:"localhost:8082", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"]]
+13-05-2020 16:06:24.836 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@491893f8}  /  / / ] WARN  z.r.AsyncReporter$BoundedAsyncReporter.flush - Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+13-05-2020 16:06:24.852 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@491893f8}  /  / / ] WARN  z.r.AsyncReporter$BoundedAsyncReporter.flush - Dropped 1 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused))
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:748)
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:641)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:129)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:142)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:132)
+	at zipkin2.Call$Base.execute(Call.java:380)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:284)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:358)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1248)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:739)
+	... 9 common frames omitted
+13-05-2020 16:08:49.961 [RMI TCP Connection(14)-127.0.0.1  /  / / ] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+13-05-2020 16:08:50.077 [RMI TCP Connection(14)-127.0.0.1  /  / / ] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+13-05-2020 16:08:50.962 [RMI TCP Connection(14)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-8082"]
+13-05-2020 16:08:50.972 [RMI TCP Connection(14)-127.0.0.1  /  / / ] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+13-05-2020 16:08:50.999 [RMI TCP Connection(14)-127.0.0.1  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Destroying Spring FrameworkServlet 'dispatcherServlet'
+13-05-2020 16:08:51.169 [RMI TCP Connection(14)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8082"]
+13-05-2020 16:08:51.179 [RMI TCP Connection(14)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-8082"]
+13-05-2020 17:02:25.775 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStartupProfileInfo - The following profiles are active: svi
+13-05-2020 17:02:29.448 [main  /  / / ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+13-05-2020 17:02:29.459 [main  /  / / ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+13-05-2020 17:02:29.556 [main  /  / / ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 49ms. Found 0 Redis repository interfaces.
+13-05-2020 17:02:30.989 [main  /  / / ] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=8d134d51-7d17-3451-8b15-0bda23f53c43
+13-05-2020 17:02:32.071 [main  /  / / ] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'spring.sleuth.redis-org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties' of type [org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13-05-2020 17:02:33.206 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+13-05-2020 17:02:33.237 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8082"]
+13-05-2020 17:02:33.241 [main  /  / / ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+13-05-2020 17:02:33.243 [main  /  / / ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+13-05-2020 17:02:33.758 [main  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+13-05-2020 17:02:33.759 [main  /  / / ] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 7929 ms
+13-05-2020 17:02:36.655 [main  /  / / ] WARN  o.s.c.s.z.ZipkinAutoConfiguration.logCheckResult - Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@2a42019a}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)}]
+13-05-2020 17:02:37.430 [main  /  / / ] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.init - Filter 'logFilter' configured for use
+13-05-2020 17:02:40.496 [main  /  / / ] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+13-05-2020 17:02:40.950 [main  /  / / ] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+13-05-2020 17:02:41.835 [main  /  / / ] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+13-05-2020 17:02:44.777 [main  /  / / ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+13-05-2020 17:02:44.824 [main  /  / / ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+13-05-2020 17:02:44.952 [main  /  / / ] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+13-05-2020 17:02:45.779 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8082"]
+13-05-2020 17:02:45.893 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8082 (http) with context path ''
+13-05-2020 17:02:46.002 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStarted - Started AnagraficaApplication in 24.1 seconds (JVM running for 26.516)
+13-05-2020 17:02:46.796 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13-05-2020 17:02:46.809 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+13-05-2020 17:02:46.866 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 57 ms
+13-05-2020 17:13:27.283 [RMI TCP Connection(21)-127.0.0.1  /  / / ] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+13-05-2020 17:13:27.349 [RMI TCP Connection(21)-127.0.0.1  /  / / ] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+13-05-2020 17:13:27.965 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@2a42019a}  /  / / ] WARN  z.r.AsyncReporter$BoundedAsyncReporter.flush - Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+13-05-2020 17:13:27.974 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@2a42019a}  /  / / ] WARN  z.r.AsyncReporter$BoundedAsyncReporter.flush - Dropped 0 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused))
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:748)
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:641)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:129)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:142)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:132)
+	at zipkin2.Call$Base.execute(Call.java:380)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:284)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:358)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1248)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:739)
+	... 9 common frames omitted
+13-05-2020 17:13:28.008 [RMI TCP Connection(21)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-8082"]
+13-05-2020 17:13:28.020 [RMI TCP Connection(21)-127.0.0.1  /  / / ] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+13-05-2020 17:13:28.035 [RMI TCP Connection(21)-127.0.0.1  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Destroying Spring FrameworkServlet 'dispatcherServlet'
+13-05-2020 17:13:28.083 [RMI TCP Connection(21)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8082"]
+13-05-2020 17:13:28.109 [RMI TCP Connection(21)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-8082"]

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+	<!-- <include resource="org/springframework/boot/logging/logback/base.xml"/>-->
+	
+	<property resource="application.properties" />
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{dd-MM-yyyy HH:mm:ss.SSS} %magenta([%thread ri: %X{requestId}  ui: %X{userId}  ti: %X{traceId}  si: %X{spanId}]) %highlight(%-5level) %logger{36}.%M - %msg%n</pattern>
+        </encoder>
+    </appender>
+    
+    
+    <appender name="ADDTOFILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+	    <file>${zurich.log.path}/${zurich.log.name}</file>
+	    <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+	        <Pattern>
+	            %d{dd-MM-yyyy HH:mm:ss.SSS} [%thread ri: %X{requestId}  ui: %X{userId}  ti: %X{traceId}  si: %X{spanId}] %-5level %logger{36}.%M - %msg%n
+	        </Pattern>
+	    </encoder>
+	    <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+	        <fileNamePattern>${zurich.log.path}//archived/log_%d{dd-MM-yyyy}_%i.log</fileNamePattern>
+	        <maxFileSize>10MB</maxFileSize>
+	        <maxHistory>10</maxHistory>
+	        <totalSizeCap>100MB</totalSizeCap>
+	    </rollingPolicy>
+	</appender>
+
+    <!--<root level="info">
+        <appender-ref ref="STDOUT" />
+    </root>-->
+    
+    <!-- LOG "it.zurich*" at INFO level -->
+    <!-- <logger name="it.zurich" level="INFO"></logger>
+    <logger name="org.springframework.web.filter.CommonsRequestLoggingFilter">
+    	<level value="DEBUG" />
+    	<appender-ref ref="STDOUT"/>
+   	</logger>-->
+   	
+   	<springProfile name="svi">
+        <root level="${zurich.log.level}">
+            <appender-ref ref="STDOUT" />
+            <appender-ref ref="ADDTOFILE" />
+        </root>
+		<!--Not using additivity="false" will cause the message to be printed out 
+		twice due to the root log appender and the class level appender both writing to the log. -->
+       <logger name="it.zurich.anagrafica.config.AnagraficaRequestLoggingFilter" additivity="false" level="debug">
+            <appender-ref ref="STDOUT" />
+            <appender-ref ref="ADDTOFILE" />
+        </logger>
+    </springProfile>
+
+    <!--<springProfile name="prod">
+        <root level="info">
+            <appender-ref ref="ADDTOFILE" />
+        </root>
+
+        <logger name="org.springframework.web.filter.CommonsRequestLoggingFilter" additivity="false" level="error">
+            <appender-ref ref="ADDTOFILE" />
+        </logger>
+    </springProfile>-->
+   	
+
+</configuration>

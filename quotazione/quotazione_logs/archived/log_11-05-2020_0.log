@@ -1,0 +1,630 @@
+11-05-2020 17:00:32.226 [background-preinit] DEBUG o.h.v.m.ResourceBundleMessageInterpolator.buildExpressionFactory - Loaded expression factory via original TCCL
+11-05-2020 17:00:32.676 [main] ERROR o.s.boot.SpringApplication.reportFailure - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:87 - no applicable action for [rollingPolicy], current ElementPath  is [[configuration][appender][rollingPolicy]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:27 - no applicable action for [fileNamePattern], current ElementPath  is [[configuration][appender][rollingPolicy][fileNamePattern]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@22:23 - no applicable action for [maxFileSize], current ElementPath  is [[configuration][appender][rollingPolicy][maxFileSize]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@23:22 - no applicable action for [maxHistory], current ElementPath  is [[configuration][appender][rollingPolicy][maxHistory]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@24:24 - no applicable action for [totalSizeCap], current ElementPath  is [[configuration][appender][rollingPolicy][totalSizeCap]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:222)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:288)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at it.zurich.quotazione.QuotazioneApplication.main(QuotazioneApplication.java:27)
+11-05-2020 17:01:16.883 [main] ERROR o.s.boot.SpringApplication.reportFailure - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@20:87 - no applicable action for [rollingPolicy], current ElementPath  is [[configuration][appender][rollingPolicy]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@21:27 - no applicable action for [fileNamePattern], current ElementPath  is [[configuration][appender][rollingPolicy][fileNamePattern]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@22:23 - no applicable action for [maxFileSize], current ElementPath  is [[configuration][appender][rollingPolicy][maxFileSize]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@23:22 - no applicable action for [maxHistory], current ElementPath  is [[configuration][appender][rollingPolicy][maxHistory]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@24:24 - no applicable action for [totalSizeCap], current ElementPath  is [[configuration][appender][rollingPolicy][totalSizeCap]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:222)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:73)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:118)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:313)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:288)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at it.zurich.quotazione.QuotazioneApplication.main(QuotazioneApplication.java:27)
+11-05-2020 17:04:25.761 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarting - Starting QuotazioneApplication on zurichvm with PID 7150 (/home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione/target/classes started by zurich in /home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione)
+11-05-2020 17:04:25.776 [main] INFO  i.z.quotazione.QuotazioneApplication.logStartupProfileInfo - The following profiles are active: svi
+11-05-2020 17:04:28.316 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+11-05-2020 17:04:28.324 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:04:28.325 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+11-05-2020 17:04:28.326 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11-05-2020 17:04:28.440 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+11-05-2020 17:04:28.442 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2492 ms
+11-05-2020 17:04:28.920 [main] DEBUG o.s.w.f.CommonsRequestLoggingFilter.init - Filter 'logFilter' configured for use
+11-05-2020 17:04:29.490 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+11-05-2020 17:04:29.667 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11-05-2020 17:04:29.913 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:04:30.405 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+11-05-2020 17:04:30.444 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+11-05-2020 17:04:30.494 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+11-05-2020 17:04:30.813 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:04:30.899 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+11-05-2020 17:04:30.944 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarted - Started QuotazioneApplication in 6.241 seconds (JVM running for 7.609)
+11-05-2020 17:04:31.296 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-05-2020 17:04:31.301 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+11-05-2020 17:04:31.310 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 8 ms
+11-05-2020 17:04:38.880 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter.beforeRequest - Before request [GET /api/isAlive]
+11-05-2020 17:04:38.967 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter.afterRequest - REQUEST DATA : GET /api/isAlive]
+11-05-2020 17:11:08.965 [RMI TCP Connection(17)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+11-05-2020 17:11:08.970 [RMI TCP Connection(17)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:11:20.614 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarting - Starting QuotazioneApplication on zurichvm with PID 7440 (/home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione/target/classes started by zurich in /home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione)
+11-05-2020 17:11:20.637 [main] INFO  i.z.quotazione.QuotazioneApplication.logStartupProfileInfo - The following profiles are active: svi
+11-05-2020 17:11:26.301 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+11-05-2020 17:11:26.359 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:11:26.361 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+11-05-2020 17:11:26.362 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11-05-2020 17:11:26.615 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+11-05-2020 17:11:26.616 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 5687 ms
+11-05-2020 17:11:27.437 [main] DEBUG o.s.w.f.CommonsRequestLoggingFilter.init - Filter 'logFilter' configured for use
+11-05-2020 17:11:28.239 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+11-05-2020 17:11:28.382 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11-05-2020 17:11:28.481 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:11:28.789 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+11-05-2020 17:11:28.818 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+11-05-2020 17:11:28.866 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+11-05-2020 17:11:29.198 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:11:29.253 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+11-05-2020 17:11:29.266 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarted - Started QuotazioneApplication in 10.2 seconds (JVM running for 12.243)
+11-05-2020 17:11:30.464 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-05-2020 17:11:30.482 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+11-05-2020 17:11:30.515 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 32 ms
+11-05-2020 17:11:53.504 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter.beforeRequest - Before request [GET /api/QUOTA]
+11-05-2020 17:11:53.554 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter.afterRequest - REQUEST DATA : GET /api/QUOTA]
+11-05-2020 17:11:56.757 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter.beforeRequest - Before request [GET /api/quota]
+11-05-2020 17:11:56.800 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter.afterRequest - REQUEST DATA : GET /api/quota]
+11-05-2020 17:14:35.706 [RMI TCP Connection(14)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+11-05-2020 17:14:35.734 [RMI TCP Connection(14)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:14:45.269 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarting - Starting QuotazioneApplication on zurichvm with PID 7766 (/home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione/target/classes started by zurich in /home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione)
+11-05-2020 17:14:45.291 [main] INFO  i.z.quotazione.QuotazioneApplication.logStartupProfileInfo - The following profiles are active: svi
+11-05-2020 17:14:50.086 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+11-05-2020 17:14:50.107 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:14:50.108 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+11-05-2020 17:14:50.109 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11-05-2020 17:14:50.309 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+11-05-2020 17:14:50.312 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4692 ms
+11-05-2020 17:14:51.029 [main] DEBUG o.s.w.f.CommonsRequestLoggingFilter.init - Filter 'logFilter' configured for use
+11-05-2020 17:14:52.024 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+11-05-2020 17:14:52.251 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11-05-2020 17:14:52.426 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:14:53.011 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+11-05-2020 17:14:53.037 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+11-05-2020 17:14:53.130 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+11-05-2020 17:14:53.368 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:14:53.412 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+11-05-2020 17:14:53.423 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarted - Started QuotazioneApplication in 9.178 seconds (JVM running for 12.556)
+11-05-2020 17:14:56.087 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-05-2020 17:14:56.101 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+11-05-2020 17:14:56.135 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 32 ms
+11-05-2020 17:14:58.273 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter.beforeRequest - Before request [GET /api/quota, client=127.0.0.1, headers=[host:"localhost:8080", user-agent:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", accept-language:"en-US,en;q=0.5", accept-encoding:"gzip, deflate", connection:"keep-alive", upgrade-insecure-requests:"1"]]
+11-05-2020 17:14:58.566 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter.afterRequest - REQUEST DATA : GET /api/quota, client=127.0.0.1, headers=[host:"localhost:8080", user-agent:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", accept-language:"en-US,en;q=0.5", accept-encoding:"gzip, deflate", connection:"keep-alive", upgrade-insecure-requests:"1"]]
+11-05-2020 17:15:18.900 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter.beforeRequest - Before request [POST /api/quotaPost, client=0:0:0:0:0:0:0:1, headers=[requestid:"7888974152185412", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"aad59b53-16d2-4e5f-b535-22ba1a5e246c", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"]]
+11-05-2020 17:15:18.954 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter.afterRequest - REQUEST DATA : POST /api/quotaPost, client=0:0:0:0:0:0:0:1, headers=[requestid:"7888974152185412", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"aad59b53-16d2-4e5f-b535-22ba1a5e246c", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"], payload=TPO19947828]
+11-05-2020 17:22:49.353 [RMI TCP Connection(18)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+11-05-2020 17:22:49.360 [RMI TCP Connection(18)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:23:01.073 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarting - Starting QuotazioneApplication on zurichvm with PID 8146 (/home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione/target/classes started by zurich in /home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione)
+11-05-2020 17:23:01.083 [main] INFO  i.z.quotazione.QuotazioneApplication.logStartupProfileInfo - The following profiles are active: svi
+11-05-2020 17:23:04.258 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+11-05-2020 17:23:04.285 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:23:04.303 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+11-05-2020 17:23:04.305 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11-05-2020 17:23:04.481 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+11-05-2020 17:23:04.483 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3183 ms
+11-05-2020 17:23:05.231 [main] DEBUG o.s.w.f.CommonsRequestLoggingFilter.init - Filter 'logFilter' configured for use
+11-05-2020 17:23:06.071 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+11-05-2020 17:23:06.224 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11-05-2020 17:23:06.623 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:23:07.202 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+11-05-2020 17:23:07.240 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+11-05-2020 17:23:07.345 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+11-05-2020 17:23:07.756 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:23:07.810 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+11-05-2020 17:23:07.823 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarted - Started QuotazioneApplication in 8.322 seconds (JVM running for 11.202)
+11-05-2020 17:23:10.226 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-05-2020 17:23:10.228 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+11-05-2020 17:23:10.242 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 12 ms
+11-05-2020 17:23:11.850 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter.beforeRequest - Before request [GET /api/quota, headers=[host:"localhost:8080", user-agent:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", accept-language:"en-US,en;q=0.5", accept-encoding:"gzip, deflate", connection:"keep-alive", upgrade-insecure-requests:"1"]]
+11-05-2020 17:23:12.002 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter.afterRequest - REQUEST DATA : GET /api/quota, headers=[host:"localhost:8080", user-agent:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", accept-language:"en-US,en;q=0.5", accept-encoding:"gzip, deflate", connection:"keep-alive", upgrade-insecure-requests:"1"]]
+11-05-2020 17:23:20.381 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter.beforeRequest - Before request [POST /api/quotaPost, headers=[requestid:"7888974152185412", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"2fc1981c-abf3-4658-9c7c-bc247b28e52b", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"]]
+11-05-2020 17:23:20.458 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter.afterRequest - REQUEST DATA : POST /api/quotaPost, headers=[requestid:"7888974152185412", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"2fc1981c-abf3-4658-9c7c-bc247b28e52b", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"], payload=TPO19947828]
+11-05-2020 17:23:39.538 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+11-05-2020 17:23:39.578 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:23:48.243 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarting - Starting QuotazioneApplication on zurichvm with PID 8283 (/home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione/target/classes started by zurich in /home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione)
+11-05-2020 17:23:48.245 [main] INFO  i.z.quotazione.QuotazioneApplication.logStartupProfileInfo - The following profiles are active: svi
+11-05-2020 17:23:53.075 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+11-05-2020 17:23:53.087 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:23:53.089 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+11-05-2020 17:23:53.091 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11-05-2020 17:23:53.180 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+11-05-2020 17:23:53.180 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4796 ms
+11-05-2020 17:23:53.972 [main] DEBUG o.s.w.f.CommonsRequestLoggingFilter.init - Filter 'logFilter' configured for use
+11-05-2020 17:23:55.061 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+11-05-2020 17:23:55.249 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11-05-2020 17:23:55.568 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:23:56.226 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+11-05-2020 17:23:56.250 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+11-05-2020 17:23:56.292 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+11-05-2020 17:23:56.960 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:23:57.166 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+11-05-2020 17:23:57.172 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarted - Started QuotazioneApplication in 10.682 seconds (JVM running for 12.741)
+11-05-2020 17:23:58.854 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-05-2020 17:23:58.856 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+11-05-2020 17:23:58.894 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 37 ms
+11-05-2020 17:24:02.203 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter.beforeRequest - Before request [GET /api/quota, headers=[host:"localhost:8080", user-agent:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", accept-language:"en-US,en;q=0.5", accept-encoding:"gzip, deflate", connection:"keep-alive", upgrade-insecure-requests:"1"]]
+11-05-2020 17:24:02.367 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter.afterRequest - REQUEST DATA : GET /api/quota, headers=[host:"localhost:8080", user-agent:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", accept-language:"en-US,en;q=0.5", accept-encoding:"gzip, deflate", connection:"keep-alive", upgrade-insecure-requests:"1"]]
+11-05-2020 17:37:00.083 [RMI TCP Connection(23)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+11-05-2020 17:37:00.090 [RMI TCP Connection(23)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:37:09.885 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarting - Starting QuotazioneApplication on zurichvm with PID 9245 (/home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione/target/classes started by zurich in /home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione)
+11-05-2020 17:37:09.888 [main] INFO  i.z.quotazione.QuotazioneApplication.logStartupProfileInfo - The following profiles are active: svi
+11-05-2020 17:37:13.441 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+11-05-2020 17:37:13.451 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:37:13.452 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+11-05-2020 17:37:13.452 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11-05-2020 17:37:13.664 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+11-05-2020 17:37:13.665 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3708 ms
+11-05-2020 17:37:14.402 [main] DEBUG o.s.w.f.CommonsRequestLoggingFilter.init - Filter 'logFilter' configured for use
+11-05-2020 17:37:15.154 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+11-05-2020 17:37:15.319 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11-05-2020 17:37:15.521 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:37:16.122 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+11-05-2020 17:37:16.205 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+11-05-2020 17:37:16.270 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+11-05-2020 17:37:16.574 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:37:16.597 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+11-05-2020 17:37:16.606 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarted - Started QuotazioneApplication in 7.959 seconds (JVM running for 9.855)
+11-05-2020 17:37:19.082 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-05-2020 17:37:19.083 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+11-05-2020 17:37:19.090 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 7 ms
+11-05-2020 17:37:20.796 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter.beforeRequest - Before request [POST /api/quotaPost, headers=[requestid:"7888974152185412", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"c3e48a84-f531-4d96-8316-70e1c44174c3", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"]]
+11-05-2020 17:37:21.010 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter.afterRequest - REQUEST DATA : POST /api/quotaPost, headers=[requestid:"7888974152185412", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"c3e48a84-f531-4d96-8316-70e1c44174c3", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"], payload=TPO19947828]
+11-05-2020 17:38:17.130 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+11-05-2020 17:38:17.144 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:38:27.708 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarting - Starting QuotazioneApplication on zurichvm with PID 9401 (/home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione/target/classes started by zurich in /home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione)
+11-05-2020 17:38:27.721 [main] INFO  i.z.quotazione.QuotazioneApplication.logStartupProfileInfo - The following profiles are active: svi
+11-05-2020 17:38:32.571 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+11-05-2020 17:38:32.583 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:38:32.584 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+11-05-2020 17:38:32.585 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11-05-2020 17:38:32.805 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+11-05-2020 17:38:32.807 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4834 ms
+11-05-2020 17:38:33.637 [main] DEBUG o.s.w.f.CommonsRequestLoggingFilter.init - Filter 'logFilter' configured for use
+11-05-2020 17:38:34.578 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+11-05-2020 17:38:34.779 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11-05-2020 17:38:35.005 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:38:35.469 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+11-05-2020 17:38:35.512 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+11-05-2020 17:38:35.650 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+11-05-2020 17:38:35.988 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:38:36.081 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+11-05-2020 17:38:36.097 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarted - Started QuotazioneApplication in 9.96 seconds (JVM running for 13.023)
+11-05-2020 17:38:38.023 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-05-2020 17:38:38.024 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+11-05-2020 17:38:38.043 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 16 ms
+11-05-2020 17:39:02.517 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter.beforeRequest - Before request [POST /api/quotaPost, headers=[requestid:"7888974152185412", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"ae8a976a-f923-445e-935a-8f383e052b64", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"]]
+11-05-2020 17:39:02.679 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter.afterRequest - REQUEST DATA : POST /api/quotaPost, headers=[requestid:"7888974152185412", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"ae8a976a-f923-445e-935a-8f383e052b64", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"], payload=TPO19947828]
+11-05-2020 17:39:31.489 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter.beforeRequest - Before request [POST /api/quotaPost, headers=[requestid:"7888974152185412", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"a4d72174-3e88-4654-96b8-0f965027889f", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"]]
+11-05-2020 17:39:31.516 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter.afterRequest - REQUEST DATA : POST /api/quotaPost, headers=[requestid:"7888974152185412", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"a4d72174-3e88-4654-96b8-0f965027889f", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"], payload=TPO19947828]
+11-05-2020 17:39:35.242 [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+11-05-2020 17:39:35.248 [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:39:46.491 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarting - Starting QuotazioneApplication on zurichvm with PID 9515 (/home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione/target/classes started by zurich in /home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione)
+11-05-2020 17:39:46.497 [main] INFO  i.z.quotazione.QuotazioneApplication.logStartupProfileInfo - The following profiles are active: svi
+11-05-2020 17:39:50.326 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+11-05-2020 17:39:50.336 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:39:50.337 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+11-05-2020 17:39:50.338 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11-05-2020 17:39:50.468 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+11-05-2020 17:39:50.468 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3696 ms
+11-05-2020 17:39:51.575 [main] DEBUG o.s.w.f.CommonsRequestLoggingFilter.init - Filter 'logFilter' configured for use
+11-05-2020 17:39:53.006 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+11-05-2020 17:39:53.277 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11-05-2020 17:39:53.529 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:39:54.130 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+11-05-2020 17:39:54.187 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+11-05-2020 17:39:54.239 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+11-05-2020 17:39:54.517 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:39:54.558 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+11-05-2020 17:39:54.569 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarted - Started QuotazioneApplication in 9.81 seconds (JVM running for 13.573)
+11-05-2020 17:39:55.390 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-05-2020 17:39:55.391 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+11-05-2020 17:39:55.405 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 12 ms
+11-05-2020 17:40:04.315 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter.beforeRequest - Before request [POST /api/quotaPost, headers=[requestid:"7888974152185412", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"702387ff-27b4-48da-914d-6c7bbd7ea832", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"]]
+11-05-2020 17:40:04.463 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter.afterRequest - REQUEST DATA : POST /api/quotaPost, headers=[requestid:"7888974152185412", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"702387ff-27b4-48da-914d-6c7bbd7ea832", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"], payload=TPO19947828]
+11-05-2020 17:41:34.191 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+11-05-2020 17:41:34.224 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:41:42.472 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarting - Starting QuotazioneApplication on zurichvm with PID 9831 (/home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione/target/classes started by zurich in /home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione)
+11-05-2020 17:41:42.476 [main] INFO  i.z.quotazione.QuotazioneApplication.logStartupProfileInfo - The following profiles are active: svi
+11-05-2020 17:41:47.805 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+11-05-2020 17:41:47.817 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:41:47.819 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+11-05-2020 17:41:47.819 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11-05-2020 17:41:47.957 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+11-05-2020 17:41:47.957 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 5324 ms
+11-05-2020 17:41:48.585 [main] DEBUG o.s.w.f.CommonsRequestLoggingFilter.init - Filter 'logFilter' configured for use
+11-05-2020 17:41:49.497 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+11-05-2020 17:41:49.760 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11-05-2020 17:41:50.218 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:41:50.955 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+11-05-2020 17:41:50.980 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+11-05-2020 17:41:51.035 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+11-05-2020 17:41:51.842 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:41:52.047 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+11-05-2020 17:41:52.062 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarted - Started QuotazioneApplication in 10.787 seconds (JVM running for 12.315)
+11-05-2020 17:41:53.857 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-05-2020 17:41:53.858 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+11-05-2020 17:41:53.910 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 51 ms
+11-05-2020 17:41:54.021 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter.beforeRequest - REQUEST DATA BEFORE :POST /api/quotaPost, headers=[requestid:"7888974152185412", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"0d1c705d-11cf-448b-a258-d6ca03c6073d", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"]]
+11-05-2020 17:41:54.266 [http-nio-8080-exec-2] DEBUG o.s.w.f.CommonsRequestLoggingFilter.afterRequest - REQUEST DATA AFTER: POST /api/quotaPost, headers=[requestid:"7888974152185412", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"0d1c705d-11cf-448b-a258-d6ca03c6073d", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"], payload=TPO19947828]
+11-05-2020 17:46:41.534 [RMI TCP Connection(14)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+11-05-2020 17:46:41.549 [RMI TCP Connection(14)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:47:15.028 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarting - Starting QuotazioneApplication on zurichvm with PID 10442 (/home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione/target/classes started by zurich in /home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione)
+11-05-2020 17:47:15.070 [main] INFO  i.z.quotazione.QuotazioneApplication.logStartupProfileInfo - The following profiles are active: svi
+11-05-2020 17:47:19.790 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+11-05-2020 17:47:19.811 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:47:19.812 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+11-05-2020 17:47:19.818 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11-05-2020 17:47:19.993 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+11-05-2020 17:47:19.995 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4620 ms
+11-05-2020 17:47:20.808 [main] DEBUG o.s.w.f.CommonsRequestLoggingFilter.init - Filter 'logFilter' configured for use
+11-05-2020 17:47:21.678 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+11-05-2020 17:47:21.764 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11-05-2020 17:47:22.025 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:47:22.456 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+11-05-2020 17:47:22.491 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+11-05-2020 17:47:22.537 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+11-05-2020 17:47:22.717 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:47:22.815 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+11-05-2020 17:47:22.871 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarted - Started QuotazioneApplication in 9.273 seconds (JVM running for 11.832)
+11-05-2020 17:47:25.560 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-05-2020 17:47:25.561 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+11-05-2020 17:47:25.600 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 38 ms
+11-05-2020 17:47:32.413 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter.beforeRequest - REQUEST DATA BEFORE :POST /api/quotaPost, headers=[requestid:"7888974152185412", ciao:"SONO IOO", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"90713c4b-4742-4662-81f1-8e0fb6f35317", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"]]
+11-05-2020 17:47:32.521 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter.afterRequest - REQUEST DATA AFTER: POST /api/quotaPost, headers=[requestid:"7888974152185412", ciao:"SONO IOO", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"90713c4b-4742-4662-81f1-8e0fb6f35317", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"], payload=TPO19947828]
+11-05-2020 17:47:59.168 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+11-05-2020 17:47:59.195 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:48:09.181 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarting - Starting QuotazioneApplication on zurichvm with PID 10554 (/home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione/target/classes started by zurich in /home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione)
+11-05-2020 17:48:09.183 [main] INFO  i.z.quotazione.QuotazioneApplication.logStartupProfileInfo - The following profiles are active: svi
+11-05-2020 17:48:12.785 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+11-05-2020 17:48:12.803 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:48:12.804 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+11-05-2020 17:48:12.804 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11-05-2020 17:48:12.933 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+11-05-2020 17:48:12.935 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3683 ms
+11-05-2020 17:48:14.754 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+11-05-2020 17:48:15.002 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11-05-2020 17:48:15.315 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:48:15.921 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+11-05-2020 17:48:15.967 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+11-05-2020 17:48:16.004 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+11-05-2020 17:48:16.306 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:48:16.398 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+11-05-2020 17:48:16.421 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarted - Started QuotazioneApplication in 8.415 seconds (JVM running for 11.511)
+11-05-2020 17:48:17.901 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-05-2020 17:48:17.903 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+11-05-2020 17:48:17.926 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 21 ms
+11-05-2020 17:49:32.124 [RMI TCP Connection(12)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+11-05-2020 17:49:32.144 [RMI TCP Connection(12)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:49:45.072 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarting - Starting QuotazioneApplication on zurichvm with PID 10906 (/home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione/target/classes started by zurich in /home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione)
+11-05-2020 17:49:45.122 [main] INFO  i.z.quotazione.QuotazioneApplication.logStartupProfileInfo - The following profiles are active: svi
+11-05-2020 17:49:49.717 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+11-05-2020 17:49:49.739 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:49:49.741 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+11-05-2020 17:49:49.742 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11-05-2020 17:49:49.923 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+11-05-2020 17:49:49.923 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4528 ms
+11-05-2020 17:49:50.515 [main] DEBUG o.s.w.f.CommonsRequestLoggingFilter.init - Filter 'logFilter' configured for use
+11-05-2020 17:49:51.028 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+11-05-2020 17:49:51.112 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11-05-2020 17:49:51.289 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:49:51.677 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+11-05-2020 17:49:51.693 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+11-05-2020 17:49:51.727 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+11-05-2020 17:49:51.958 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:49:51.985 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+11-05-2020 17:49:51.989 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarted - Started QuotazioneApplication in 8.432 seconds (JVM running for 10.713)
+11-05-2020 17:49:54.189 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-05-2020 17:49:54.192 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+11-05-2020 17:49:54.218 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 21 ms
+11-05-2020 17:50:03.118 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter.beforeRequest - REQUEST DATA BEFORE :POST /api/quotaPost, headers=[requestid:"7888974152185412", ciao:"SONO IOO", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"6ffb7812-16b0-4fe6-baaa-46874edad640", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"]]
+11-05-2020 17:50:03.245 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter.afterRequest - REQUEST DATA AFTER: POST /api/quotaPost, headers=[requestid:"7888974152185412", ciao:"SONO IOO", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"6ffb7812-16b0-4fe6-baaa-46874edad640", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"], payload=TPO19947828]
+11-05-2020 17:51:38.964 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+11-05-2020 17:51:38.988 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:51:48.474 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarting - Starting QuotazioneApplication on zurichvm with PID 11277 (/home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione/target/classes started by zurich in /home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione)
+11-05-2020 17:51:48.479 [main] INFO  i.z.quotazione.QuotazioneApplication.logStartupProfileInfo - The following profiles are active: svi
+11-05-2020 17:51:53.519 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+11-05-2020 17:51:53.533 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:51:53.540 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+11-05-2020 17:51:53.544 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11-05-2020 17:51:53.712 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+11-05-2020 17:51:53.721 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 5028 ms
+11-05-2020 17:51:54.774 [main] DEBUG o.s.w.f.CommonsRequestLoggingFilter.init - Filter 'logFilter' configured for use
+11-05-2020 17:51:56.425 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+11-05-2020 17:51:56.656 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11-05-2020 17:51:56.768 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+11-05-2020 17:51:57.074 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+11-05-2020 17:51:57.092 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+11-05-2020 17:51:57.145 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+11-05-2020 17:51:57.474 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+11-05-2020 17:51:57.504 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+11-05-2020 17:51:57.510 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarted - Started QuotazioneApplication in 10.123 seconds (JVM running for 12.568)
+11-05-2020 17:51:58.669 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-05-2020 17:51:58.671 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+11-05-2020 17:51:58.681 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 9 ms
+11-05-2020 17:51:58.711 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter.beforeRequest - REQUEST DATA BEFORE :GET /api/quota, headers=[host:"localhost:8080", user-agent:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", accept-language:"en-US,en;q=0.5", accept-encoding:"gzip, deflate", connection:"keep-alive", upgrade-insecure-requests:"1"]]
+11-05-2020 17:51:58.794 [http-nio-8080-exec-1] DEBUG o.s.w.f.CommonsRequestLoggingFilter.afterRequest - REQUEST DATA AFTER: GET /api/quota, headers=[host:"localhost:8080", user-agent:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", accept-language:"en-US,en;q=0.5", accept-encoding:"gzip, deflate", connection:"keep-alive", upgrade-insecure-requests:"1"]]
+11-05-2020 17:51:58.884 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter.beforeRequest - REQUEST DATA BEFORE :GET /favicon.ico, headers=[host:"localhost:8080", user-agent:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0", accept:"image/webp,*/*", accept-language:"en-US,en;q=0.5", accept-encoding:"gzip, deflate", connection:"keep-alive"]]
+11-05-2020 17:51:58.917 [http-nio-8080-exec-3] DEBUG o.s.w.f.CommonsRequestLoggingFilter.afterRequest - REQUEST DATA AFTER: GET /favicon.ico, headers=[host:"localhost:8080", user-agent:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0", accept:"image/webp,*/*", accept-language:"en-US,en;q=0.5", accept-encoding:"gzip, deflate", connection:"keep-alive"]]
+11-05-2020 17:52:09.604 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter.beforeRequest - REQUEST DATA BEFORE :POST /api/quotaPost, headers=[requestid:"7888974152185412", ciao:"SONO IOO", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"f5cd65a1-b10d-464b-a027-5ca25f95a8a0", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"]]
+11-05-2020 17:52:09.636 [http-nio-8080-exec-5] DEBUG o.s.w.f.CommonsRequestLoggingFilter.afterRequest - REQUEST DATA AFTER: POST /api/quotaPost, headers=[requestid:"7888974152185412", ciao:"SONO IOO", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"f5cd65a1-b10d-464b-a027-5ca25f95a8a0", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"], payload=TPO19947828]
+11-05-2020 18:09:14.813 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter.beforeRequest - REQUEST DATA BEFORE :GET /actuator/httptrace, headers=[host:"localhost:8080", user-agent:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", accept-language:"en-US,en;q=0.5", accept-encoding:"gzip, deflate", connection:"keep-alive", upgrade-insecure-requests:"1"]]
+11-05-2020 18:09:14.839 [http-nio-8080-exec-6] DEBUG o.s.w.f.CommonsRequestLoggingFilter.afterRequest - REQUEST DATA AFTER: GET /actuator/httptrace, headers=[host:"localhost:8080", user-agent:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", accept-language:"en-US,en;q=0.5", accept-encoding:"gzip, deflate", connection:"keep-alive", upgrade-insecure-requests:"1"]]
+11-05-2020 18:11:35.301 [RMI TCP Connection(31)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+11-05-2020 18:11:35.307 [RMI TCP Connection(31)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+11-05-2020 18:11:44.407 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarting - Starting QuotazioneApplication on zurichvm with PID 12165 (/home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione/target/classes started by zurich in /home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione)
+11-05-2020 18:11:44.410 [main] INFO  i.z.quotazione.QuotazioneApplication.logStartupProfileInfo - The following profiles are active: svi
+11-05-2020 18:11:49.780 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+11-05-2020 18:11:49.809 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+11-05-2020 18:11:49.819 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+11-05-2020 18:11:49.820 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11-05-2020 18:11:50.036 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+11-05-2020 18:11:50.037 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 5505 ms
+11-05-2020 18:11:51.378 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+11-05-2020 18:11:51.608 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11-05-2020 18:11:51.830 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+11-05-2020 18:11:52.222 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+11-05-2020 18:11:52.241 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+11-05-2020 18:11:52.266 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+11-05-2020 18:11:52.451 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+11-05-2020 18:11:52.502 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+11-05-2020 18:11:52.517 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarted - Started QuotazioneApplication in 9.012 seconds (JVM running for 11.0)
+11-05-2020 18:11:53.202 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-05-2020 18:11:53.203 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+11-05-2020 18:11:53.228 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 24 ms
+11-05-2020 18:13:54.973 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+11-05-2020 18:13:54.985 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+11-05-2020 18:15:14.266 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarting - Starting QuotazioneApplication on zurichvm with PID 12545 (/home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione/target/classes started by zurich in /home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione)
+11-05-2020 18:15:14.280 [main] INFO  i.z.quotazione.QuotazioneApplication.logStartupProfileInfo - The following profiles are active: svi
+11-05-2020 18:15:18.059 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+11-05-2020 18:15:18.068 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+11-05-2020 18:15:18.069 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+11-05-2020 18:15:18.070 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11-05-2020 18:15:18.216 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+11-05-2020 18:15:18.217 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3767 ms
+11-05-2020 18:15:18.827 [main] DEBUG i.z.q.c.QuotazioneRequestLoggingFilter.init - Filter 'logFilter' configured for use
+11-05-2020 18:15:19.469 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+11-05-2020 18:15:19.668 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11-05-2020 18:15:19.910 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+11-05-2020 18:15:20.441 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+11-05-2020 18:15:20.476 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+11-05-2020 18:15:20.581 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+11-05-2020 18:15:20.916 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+11-05-2020 18:15:20.963 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+11-05-2020 18:15:20.974 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarted - Started QuotazioneApplication in 7.613 seconds (JVM running for 9.129)
+11-05-2020 18:15:22.636 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-05-2020 18:15:22.646 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+11-05-2020 18:15:22.669 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 22 ms
+11-05-2020 18:15:33.755 [http-nio-8080-exec-1] DEBUG i.z.q.c.QuotazioneRequestLoggingFilter.beforeRequest - REQUEST DATA BEFORE :GET /api/quota, headers=[host:"localhost:8080", user-agent:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", accept-language:"en-US,en;q=0.5", accept-encoding:"gzip, deflate", connection:"keep-alive", upgrade-insecure-requests:"1"]]
+11-05-2020 18:15:33.795 [http-nio-8080-exec-1] DEBUG i.z.q.c.QuotazioneRequestLoggingFilter.afterRequest - REQUEST DATA AFTER: GET /api/quota, headers=[host:"localhost:8080", user-agent:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", accept-language:"en-US,en;q=0.5", accept-encoding:"gzip, deflate", connection:"keep-alive", upgrade-insecure-requests:"1"]]
+11-05-2020 18:15:48.190 [http-nio-8080-exec-2] DEBUG i.z.q.c.QuotazioneRequestLoggingFilter.beforeRequest - REQUEST DATA BEFORE :POST /api/quotaPost, headers=[requestid:"7888974152185412", ciao:"SONO IOO", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"3adef406-3ae1-4015-ab59-b53fca384c94", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"]]
+11-05-2020 18:15:48.203 [http-nio-8080-exec-2] DEBUG i.z.q.c.QuotazioneRequestLoggingFilter.afterRequest - REQUEST DATA AFTER: POST /api/quotaPost, headers=[requestid:"7888974152185412", ciao:"SONO IOO", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"3adef406-3ae1-4015-ab59-b53fca384c94", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"], payload=TPO19947828]
+11-05-2020 18:16:53.415 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+11-05-2020 18:16:53.436 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+11-05-2020 18:17:05.505 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarting - Starting QuotazioneApplication on zurichvm with PID 13046 (/home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione/target/classes started by zurich in /home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione)
+11-05-2020 18:17:05.514 [main] INFO  i.z.quotazione.QuotazioneApplication.logStartupProfileInfo - The following profiles are active: svi
+11-05-2020 18:17:09.417 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+11-05-2020 18:17:09.433 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+11-05-2020 18:17:09.434 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+11-05-2020 18:17:09.434 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11-05-2020 18:17:09.559 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+11-05-2020 18:17:09.559 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3886 ms
+11-05-2020 18:17:10.309 [main] DEBUG i.z.q.c.QuotazioneRequestLoggingFilter.init - Filter 'logFilter' configured for use
+11-05-2020 18:17:10.855 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+11-05-2020 18:17:10.985 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11-05-2020 18:17:11.331 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+11-05-2020 18:17:11.715 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+11-05-2020 18:17:11.749 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+11-05-2020 18:17:11.787 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+11-05-2020 18:17:11.946 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+11-05-2020 18:17:12.063 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+11-05-2020 18:17:12.188 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarted - Started QuotazioneApplication in 7.691 seconds (JVM running for 10.605)
+11-05-2020 18:17:12.375 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-05-2020 18:17:12.378 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+11-05-2020 18:17:12.403 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 19 ms
+11-05-2020 18:17:12.474 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.NullPointerException: null
+	at it.zurich.quotazione.config.QuotazioneRequestLoggingFilter.beforeRequest(QuotazioneRequestLoggingFilter.java:19)
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:286)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+11-05-2020 18:17:15.266 [http-nio-8080-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.NullPointerException: null
+	at it.zurich.quotazione.config.QuotazioneRequestLoggingFilter.beforeRequest(QuotazioneRequestLoggingFilter.java:19)
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:286)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+11-05-2020 18:17:39.800 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+11-05-2020 18:17:39.807 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+11-05-2020 18:17:51.222 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarting - Starting QuotazioneApplication on zurichvm with PID 13152 (/home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione/target/classes started by zurich in /home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione)
+11-05-2020 18:17:51.248 [main] INFO  i.z.quotazione.QuotazioneApplication.logStartupProfileInfo - The following profiles are active: svi
+11-05-2020 18:17:53.762 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+11-05-2020 18:17:53.770 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+11-05-2020 18:17:53.771 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+11-05-2020 18:17:53.772 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11-05-2020 18:17:53.935 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+11-05-2020 18:17:53.938 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2465 ms
+11-05-2020 18:17:54.474 [main] DEBUG i.z.q.c.QuotazioneRequestLoggingFilter.init - Filter 'logFilter' configured for use
+11-05-2020 18:17:55.127 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+11-05-2020 18:17:55.224 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11-05-2020 18:17:55.410 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+11-05-2020 18:17:55.713 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+11-05-2020 18:17:55.746 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+11-05-2020 18:17:55.788 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+11-05-2020 18:17:56.021 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+11-05-2020 18:17:56.045 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+11-05-2020 18:17:56.051 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarted - Started QuotazioneApplication in 5.73 seconds (JVM running for 7.085)
+11-05-2020 18:17:57.281 [RMI TCP Connection(3)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-05-2020 18:17:57.284 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+11-05-2020 18:17:57.294 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 8 ms
+11-05-2020 18:18:01.568 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.NullPointerException: null
+	at it.zurich.quotazione.config.QuotazioneRequestLoggingFilter.beforeRequest(QuotazioneRequestLoggingFilter.java:19)
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:286)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+11-05-2020 18:18:11.952 [http-nio-8080-exec-4] DEBUG i.z.q.c.QuotazioneRequestLoggingFilter.beforeRequest - REQUEST ID --> SONO IOO
+11-05-2020 18:18:12.121 [http-nio-8080-exec-4] DEBUG i.z.q.c.QuotazioneRequestLoggingFilter.afterRequest - REQUEST DATA AFTER: POST /api/quotaPost, headers=[requestid:"7888974152185412", ciao:"SONO IOO", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"3517c8a0-2c1e-4cee-bda8-87f5ba2fb567", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"], payload=TPO19947828]
+11-05-2020 18:18:54.609 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+11-05-2020 18:18:54.618 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+11-05-2020 18:19:03.184 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarting - Starting QuotazioneApplication on zurichvm with PID 13291 (/home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione/target/classes started by zurich in /home/zurich/Desktop/zurichProject/zurich-app/complete/quotazione)
+11-05-2020 18:19:03.187 [main] INFO  i.z.quotazione.QuotazioneApplication.logStartupProfileInfo - The following profiles are active: svi
+11-05-2020 18:19:07.227 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+11-05-2020 18:19:07.243 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+11-05-2020 18:19:07.247 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+11-05-2020 18:19:07.255 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+11-05-2020 18:19:07.432 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+11-05-2020 18:19:07.433 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4167 ms
+11-05-2020 18:19:09.296 [main] DEBUG i.z.q.c.QuotazioneRequestLoggingFilter.init - Filter 'logFilter' configured for use
+11-05-2020 18:19:10.371 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+11-05-2020 18:19:10.448 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+11-05-2020 18:19:10.552 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+11-05-2020 18:19:10.837 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+11-05-2020 18:19:10.855 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+11-05-2020 18:19:10.926 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+11-05-2020 18:19:11.100 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+11-05-2020 18:19:11.131 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+11-05-2020 18:19:11.136 [main] INFO  i.z.quotazione.QuotazioneApplication.logStarted - Started QuotazioneApplication in 8.944 seconds (JVM running for 11.007)
+11-05-2020 18:19:12.872 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+11-05-2020 18:19:12.873 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+11-05-2020 18:19:12.893 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 18 ms
+11-05-2020 18:19:12.986 [http-nio-8080-exec-2] DEBUG i.z.q.c.QuotazioneRequestLoggingFilter.beforeRequest - REQUEST ID --> 7888974152185412
+11-05-2020 18:19:13.152 [http-nio-8080-exec-2] DEBUG i.z.q.c.QuotazioneRequestLoggingFilter.afterRequest - REQUEST DATA AFTER: POST /api/quotaPost, headers=[requestid:"7888974152185412", ciao:"SONO IOO", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"ebbf12c3-f909-47a6-87a6-2f0b01b63d90", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"], payload=TPO19947828]
+11-05-2020 18:19:22.265 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+11-05-2020 18:19:22.270 [RMI TCP Connection(8)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'

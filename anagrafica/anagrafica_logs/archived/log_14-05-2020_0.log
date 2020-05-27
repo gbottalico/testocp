@@ -1,0 +1,632 @@
+14-05-2020 11:43:43.535 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStartupProfileInfo - The following profiles are active: svi
+14-05-2020 11:43:46.013 [main  /  / / ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+14-05-2020 11:43:46.017 [main  /  / / ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14-05-2020 11:43:46.153 [main  /  / / ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 53ms. Found 0 Redis repository interfaces.
+14-05-2020 11:43:47.211 [main  /  / / ] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=8d134d51-7d17-3451-8b15-0bda23f53c43
+14-05-2020 11:43:47.832 [main  /  / / ] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'spring.sleuth.redis-org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties' of type [org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14-05-2020 11:43:48.384 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+14-05-2020 11:43:48.399 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8082"]
+14-05-2020 11:43:48.400 [main  /  / / ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+14-05-2020 11:43:48.401 [main  /  / / ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+14-05-2020 11:43:48.551 [main  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+14-05-2020 11:43:48.552 [main  /  / / ] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4885 ms
+14-05-2020 11:43:49.913 [main  /  / / ] WARN  o.s.c.s.z.ZipkinAutoConfiguration.logCheckResult - Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@50f3ba6a}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)}]
+14-05-2020 11:43:50.370 [main  /  / / ] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.init - Filter 'logFilter' configured for use
+14-05-2020 11:43:52.054 [main  /  / / ] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+14-05-2020 11:43:52.491 [main  /  / / ] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+14-05-2020 11:43:53.242 [main  /  / / ] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+14-05-2020 11:43:55.625 [main  /  / / ] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+14-05-2020 11:43:56.636 [main  /  / / ] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+14-05-2020 11:43:56.933 [main  /  / / ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+14-05-2020 11:43:56.957 [main  /  / / ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+14-05-2020 11:43:56.993 [main  /  / / ] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+14-05-2020 11:43:57.353 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8082"]
+14-05-2020 11:43:57.384 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8082 (http) with context path ''
+14-05-2020 11:43:58.387 [main  /  / / ] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+14-05-2020 11:43:59.388 [main  /  / / ] INFO  o.s.cloud.commons.util.InetUtils.convertAddress - Cannot determine local hostname
+14-05-2020 11:43:59.391 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStarted - Started AnagraficaApplication in 18.441 seconds (JVM running for 21.955)
+14-05-2020 11:44:16.019 [http-nio-8082-exec-1  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14-05-2020 11:44:16.021 [http-nio-8082-exec-1  /  / / ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+14-05-2020 11:44:16.087 [http-nio-8082-exec-1  /  / / ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 65 ms
+14-05-2020 11:44:16.125 [http-nio-8082-exec-1  /  / 11a607d1bdc53fa1/ 11a607d1bdc53fa1] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.beforeRequest - REQUEST DATA BEFORE :GET /actuator/health, headers=[host:"localhost:8082", user-agent:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", accept-language:"en-US,en;q=0.5", accept-encoding:"gzip, deflate", connection:"keep-alive", upgrade-insecure-requests:"1"]]
+14-05-2020 11:44:16.245 [http-nio-8082-exec-1  /  / 11a607d1bdc53fa1/ 11a607d1bdc53fa1] WARN  o.s.b.a.redis.RedisHealthIndicator.health - Redis health check failed
+org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:281)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:475)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:134)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:97)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:84)
+	at org.springframework.boot.actuate.redis.RedisHealthIndicator.doHealthCheck(RedisHealthIndicator.java:55)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpointWebExtension.getHealth(HealthEndpointWebExtension.java:95)
+	at org.springframework.boot.actuate.health.HealthEndpointWebExtension.getHealth(HealthEndpointWebExtension.java:43)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:108)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateHealth(HealthEndpointSupport.java:119)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:105)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:83)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:70)
+	at org.springframework.boot.actuate.health.HealthEndpointWebExtension.health(HealthEndpointWebExtension.java:81)
+	at org.springframework.boot.actuate.health.HealthEndpointWebExtension.health(HealthEndpointWebExtension.java:70)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:77)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$ServletWebOperationAdapter.handle(AbstractWebMvcEndpointHandlerMapping.java:305)
+	at org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(AbstractWebMvcEndpointHandlerMapping.java:388)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:67)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:289)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.cloud.sleuth.instrument.web.ExceptionLoggingFilter.doFilter(ExceptionLoggingFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:84)
+	at org.springframework.cloud.sleuth.instrument.web.LazyTracingFilter.doFilter(TraceWebServletAutoConfiguration.java:138)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.jedis.util.Pool.getResource(Pool.java:59)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:234)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:15)
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:271)
+	... 93 common frames omitted
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Failed connecting to host localhost:6379
+	at redis.clients.jedis.Connection.connect(Connection.java:204)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:100)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1894)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:117)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:889)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:424)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:349)
+	at redis.clients.jedis.util.Pool.getResource(Pool.java:50)
+	... 96 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at redis.clients.jedis.Connection.connect(Connection.java:181)
+	... 103 common frames omitted
+14-05-2020 11:44:16.550 [http-nio-8082-exec-1  /  / 11a607d1bdc53fa1/ 11a607d1bdc53fa1] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.afterRequest - REQUEST DATA AFTER: GET /actuator/health, headers=[host:"localhost:8082", user-agent:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0", accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8", accept-language:"en-US,en;q=0.5", accept-encoding:"gzip, deflate", connection:"keep-alive", upgrade-insecure-requests:"1"]]
+14-05-2020 11:44:59.916 [RMI TCP Connection(9)-127.0.0.1  /  / / ] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+14-05-2020 11:45:00.018 [RMI TCP Connection(9)-127.0.0.1  /  / / ] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+14-05-2020 11:45:00.883 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@50f3ba6a}  /  / / ] WARN  z.r.AsyncReporter$BoundedAsyncReporter.flush - Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+14-05-2020 11:45:00.886 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@50f3ba6a}  /  / / ] WARN  z.r.AsyncReporter$BoundedAsyncReporter.flush - Dropped 0 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused))
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:748)
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:641)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:129)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:142)
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:132)
+	at zipkin2.Call$Base.execute(Call.java:380)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:284)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:358)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1248)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:739)
+	... 9 common frames omitted
+14-05-2020 11:45:00.900 [RMI TCP Connection(9)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-8082"]
+14-05-2020 11:45:00.910 [RMI TCP Connection(9)-127.0.0.1  /  / / ] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+14-05-2020 11:45:00.920 [RMI TCP Connection(9)-127.0.0.1  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14-05-2020 11:45:00.943 [RMI TCP Connection(9)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8082"]
+14-05-2020 11:45:00.959 [RMI TCP Connection(9)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-8082"]
+14-05-2020 17:23:12.871 [main  /  / / ] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator.getRemoteEnvironment - Fetching config from server at : http://localhost:8888
+14-05-2020 17:23:13.102 [main  /  / / ] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator.getRemoteEnvironment - Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+14-05-2020 17:23:13.104 [main  /  / / ] WARN  o.s.c.c.c.ConfigServicePropertySourceLocator.locate - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/anagrafica-service/default": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+14-05-2020 17:23:13.113 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStartupProfileInfo - The following profiles are active: svi
+14-05-2020 17:23:16.438 [main  /  / / ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected - Multiple Spring Data modules found, entering strict repository configuration mode!
+14-05-2020 17:23:16.441 [main  /  / / ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14-05-2020 17:23:16.509 [main  /  / / ] INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 17ms. Found 0 Redis repository interfaces.
+14-05-2020 17:23:17.328 [main  /  / / ] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=26eff7ec-a1bb-328f-8a31-936fae651fbc
+14-05-2020 17:23:17.888 [main  /  / / ] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'spring.sleuth.redis-org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties' of type [org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14-05-2020 17:23:18.390 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+14-05-2020 17:23:18.398 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8082"]
+14-05-2020 17:23:18.399 [main  /  / / ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+14-05-2020 17:23:18.399 [main  /  / / ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+14-05-2020 17:23:18.628 [main  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+14-05-2020 17:23:18.630 [main  /  / / ] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 5476 ms
+14-05-2020 17:23:19.046 [main  /  / / ] ERROR o.s.b.w.e.tomcat.TomcatStarter.onStartup - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'servletEndpointRegistrar' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Unsatisfied dependency expressed through method 'healthEndpoint' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthContributorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthContributorRegistry]: Factory method 'healthContributorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisHealthContributor' defined in class path resource [org/springframework/boot/actuate/autoconfigure/redis/RedisHealthContributorAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redisHealthContributor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.host' in value "${spring.redis.host}"
+14-05-2020 17:23:19.081 [main  /  / / ] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+14-05-2020 17:23:19.114 [main  /  / / ] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+14-05-2020 17:23:19.203 [main  /  / / ] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+14-05-2020 17:23:19.249 [main  /  / / ] ERROR o.s.boot.SpringApplication.reportFailure - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at it.zurich.anagrafica.AnagraficaApplication.main(AnagraficaApplication.java:15)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:126)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:88)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:438)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:191)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'servletEndpointRegistrar' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Unsatisfied dependency expressed through method 'healthEndpoint' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthContributorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthContributorRegistry]: Factory method 'healthContributorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisHealthContributor' defined in class path resource [org/springframework/boot/actuate/autoconfigure/redis/RedisHealthContributorAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redisHealthContributor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.host' in value "${spring.redis.host}"
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:211)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:202)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:96)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:85)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:253)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5140)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:468)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:107)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Unsatisfied dependency expressed through method 'healthEndpoint' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthContributorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthContributorRegistry]: Factory method 'healthContributorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisHealthContributor' defined in class path resource [org/springframework/boot/actuate/autoconfigure/redis/RedisHealthContributorAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redisHealthContributor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.host' in value "${spring.redis.host}"
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 53 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Unsatisfied dependency expressed through method 'healthEndpoint' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthContributorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthContributorRegistry]: Factory method 'healthContributorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisHealthContributor' defined in class path resource [org/springframework/boot/actuate/autoconfigure/redis/RedisHealthContributorAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redisHealthContributor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.host' in value "${spring.redis.host}"
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.createEndpointBean(EndpointDiscoverer.java:143)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.createEndpointBeans(EndpointDiscoverer.java:133)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.discoverEndpoints(EndpointDiscoverer.java:122)
+	at org.springframework.boot.actuate.endpoint.annotation.EndpointDiscoverer.getEndpoints(EndpointDiscoverer.java:116)
+	at org.springframework.boot.actuate.autoconfigure.endpoint.web.ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.servletEndpointRegistrar(ServletEndpointManagementContextConfiguration.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 54 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthContributorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthContributorRegistry]: Factory method 'healthContributorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisHealthContributor' defined in class path resource [org/springframework/boot/actuate/autoconfigure/redis/RedisHealthContributorAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redisHealthContributor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.host' in value "${spring.redis.host}"
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:656)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1290)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 74 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthContributorRegistry]: Factory method 'healthContributorRegistry' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisHealthContributor' defined in class path resource [org/springframework/boot/actuate/autoconfigure/redis/RedisHealthContributorAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redisHealthContributor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.host' in value "${spring.redis.host}"
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:651)
+	... 88 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redisHealthContributor' defined in class path resource [org/springframework/boot/actuate/autoconfigure/redis/RedisHealthContributorAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redisHealthContributor' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.host' in value "${spring.redis.host}"
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:798)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:608)
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1242)
+	at org.springframework.boot.actuate.autoconfigure.health.HealthEndpointConfiguration.healthContributorRegistry(HealthEndpointConfiguration.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 89 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.host' in value "${spring.redis.host}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1508)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1472)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:885)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:789)
+	... 107 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'spring.redis.host' in value "${spring.redis.host}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:909)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1231)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1210)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 131 common frames omitted
+14-05-2020 22:14:17.064 [main  /  / / ] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator.getRemoteEnvironment - Fetching config from server at : http://localhost:8888
+14-05-2020 22:14:17.493 [main  /  / / ] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator.getRemoteEnvironment - Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+14-05-2020 22:14:17.494 [main  /  / / ] WARN  o.s.c.c.c.ConfigServicePropertySourceLocator.locate - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/anagrafica-service/default": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+14-05-2020 22:14:17.506 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStartupProfileInfo - The following profiles are active: svi
+14-05-2020 22:14:18.558 [main  /  / / ] ERROR o.s.boot.SpringApplication.reportFailure - Application run failed
+java.lang.IllegalStateException: The following classes could not be excluded because they are not auto-configuration classes:
+	- it.zurich.anagrafica.config.RedisConfig
+
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.handleInvalidExcludes(AutoConfigurationImportSelector.java:209)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.checkExcludedClasses(AutoConfigurationImportSelector.java:195)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAutoConfigurationEntry(AutoConfigurationImportSelector.java:119)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector$AutoConfigurationGroup.process(AutoConfigurationImportSelector.java:396)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGrouping.getImports(ConfigurationClassParser.java:878)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:808)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:779)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:192)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:319)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at it.zurich.anagrafica.AnagraficaApplication.main(AnagraficaApplication.java:17)
+14-05-2020 22:17:42.920 [main  /  / / ] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator.getRemoteEnvironment - Fetching config from server at : http://localhost:8888
+14-05-2020 22:17:43.087 [main  /  / / ] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator.getRemoteEnvironment - Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+14-05-2020 22:17:43.088 [main  /  / / ] WARN  o.s.c.c.c.ConfigServicePropertySourceLocator.locate - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/anagrafica-service/default": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+14-05-2020 22:17:43.090 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStartupProfileInfo - The following profiles are active: svi
+14-05-2020 22:17:43.624 [main  /  / / ] ERROR o.s.boot.SpringApplication.reportFailure - Application run failed
+java.lang.IllegalStateException: The following classes could not be excluded because they are not auto-configuration classes:
+	- it.zurich.anagrafica.config.RedisConfig
+
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.handleInvalidExcludes(AutoConfigurationImportSelector.java:209)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.checkExcludedClasses(AutoConfigurationImportSelector.java:195)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.getAutoConfigurationEntry(AutoConfigurationImportSelector.java:119)
+	at org.springframework.boot.autoconfigure.AutoConfigurationImportSelector$AutoConfigurationGroup.process(AutoConfigurationImportSelector.java:396)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGrouping.getImports(ConfigurationClassParser.java:878)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:808)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:779)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:192)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:319)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:236)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at it.zurich.anagrafica.AnagraficaApplication.main(AnagraficaApplication.java:19)
+14-05-2020 22:18:42.021 [main  /  / / ] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator.getRemoteEnvironment - Fetching config from server at : http://localhost:8888
+14-05-2020 22:18:42.333 [main  /  / / ] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator.getRemoteEnvironment - Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+14-05-2020 22:18:42.334 [main  /  / / ] WARN  o.s.c.c.c.ConfigServicePropertySourceLocator.locate - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/anagrafica-service/default": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+14-05-2020 22:18:42.339 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStartupProfileInfo - The following profiles are active: svi
+14-05-2020 22:18:46.226 [main  /  / / ] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=a305aa1a-07a4-3f56-a4c7-254e1e984a75
+14-05-2020 22:18:46.945 [main  /  / / ] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'spring.sleuth.redis-org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties' of type [org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14-05-2020 22:18:47.434 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+14-05-2020 22:18:47.458 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8082"]
+14-05-2020 22:18:47.465 [main  /  / / ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+14-05-2020 22:18:47.466 [main  /  / / ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+14-05-2020 22:18:47.981 [main  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+14-05-2020 22:18:47.982 [main  /  / / ] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 5592 ms
+14-05-2020 22:18:51.712 [main  /  / / ] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.init - Filter 'logFilter' configured for use
+14-05-2020 22:18:51.808 [main  /  / / ] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'loginUtenteCacheManagerImpl' defined in file [/home/zurich/Desktop/zurich-app/anagrafica/target/classes/it/zurich/anagrafica/services/LoginUtenteCacheManagerImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'it.zurich.anagrafica.util.RedisUtil<it.zurich.dto.LoginUtenteDTO>' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+14-05-2020 22:18:51.888 [main  /  / / ] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+14-05-2020 22:18:51.997 [main  /  / / ] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+14-05-2020 22:18:52.698 [main  /  / / ] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in it.zurich.anagrafica.services.LoginUtenteCacheManagerImpl required a bean of type 'it.zurich.anagrafica.util.RedisUtil' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'it.zurich.anagrafica.util.RedisUtil' in your configuration.
+
+14-05-2020 22:19:52.306 [main  /  / / ] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator.getRemoteEnvironment - Fetching config from server at : http://localhost:8888
+14-05-2020 22:19:52.528 [main  /  / / ] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator.getRemoteEnvironment - Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+14-05-2020 22:19:52.529 [main  /  / / ] WARN  o.s.c.c.c.ConfigServicePropertySourceLocator.locate - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/anagrafica-service/default": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused)
+14-05-2020 22:19:52.539 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStartupProfileInfo - The following profiles are active: svi
+14-05-2020 22:19:55.525 [main  /  / / ] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=46b8cc66-2a11-39d4-9e2a-59d16b25d6e2
+14-05-2020 22:19:55.947 [main  /  / / ] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'spring.sleuth.redis-org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties' of type [org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14-05-2020 22:19:56.711 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+14-05-2020 22:19:56.721 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8082"]
+14-05-2020 22:19:56.722 [main  /  / / ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+14-05-2020 22:19:56.728 [main  /  / / ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+14-05-2020 22:19:57.001 [main  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+14-05-2020 22:19:57.008 [main  /  / / ] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4442 ms
+14-05-2020 22:19:58.985 [main  /  / / ] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.init - Filter 'logFilter' configured for use
+14-05-2020 22:20:00.336 [main  /  / / ] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+14-05-2020 22:20:00.598 [main  /  / / ] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+14-05-2020 22:20:01.040 [main  /  / / ] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+14-05-2020 22:20:02.521 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14-05-2020 22:20:02.528 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+14-05-2020 22:20:02.773 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 244 ms
+14-05-2020 22:20:03.381 [main  /  / / ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+14-05-2020 22:20:03.399 [main  /  / / ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+14-05-2020 22:20:03.525 [main  /  / / ] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+14-05-2020 22:20:03.723 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8082"]
+14-05-2020 22:20:03.746 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8082 (http) with context path ''
+14-05-2020 22:20:03.891 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStarted - Started AnagraficaApplication in 13.934 seconds (JVM running for 16.003)
+14-05-2020 22:22:18.170 [RMI TCP Connection(14)-127.0.0.1  /  / / ] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+14-05-2020 22:22:18.260 [RMI TCP Connection(14)-127.0.0.1  /  / / ] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+14-05-2020 22:22:18.426 [RMI TCP Connection(14)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-8082"]
+14-05-2020 22:22:18.458 [RMI TCP Connection(14)-127.0.0.1  /  / / ] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+14-05-2020 22:22:18.462 [RMI TCP Connection(14)-127.0.0.1  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14-05-2020 22:22:18.478 [RMI TCP Connection(14)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8082"]
+14-05-2020 22:22:18.500 [RMI TCP Connection(14)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-8082"]
+14-05-2020 22:26:09.274 [main  /  / / ] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator.getRemoteEnvironment - Fetching config from server at : http://localhost:8060
+14-05-2020 22:26:11.003 [main  /  / / ] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator.log - Located environment: name=anagrafica-service, profiles=[svi], label=null, version=b92df5048bab9edf47ffffb247cd248d556c4dae, state=null
+14-05-2020 22:26:11.006 [main  /  / / ] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration.initialize - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/MagarelliC/config-repository.git/application.properties'}]
+14-05-2020 22:26:11.074 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStartupProfileInfo - The following profiles are active: svi
+14-05-2020 22:26:14.469 [main  /  / / ] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=41b87b6f-195c-3dd7-bc8e-cb3fc2588e52
+14-05-2020 22:26:14.961 [main  /  / / ] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'spring.sleuth.redis-org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties' of type [org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14-05-2020 22:26:15.753 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+14-05-2020 22:26:15.763 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8082"]
+14-05-2020 22:26:15.764 [main  /  / / ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+14-05-2020 22:26:15.764 [main  /  / / ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+14-05-2020 22:26:15.999 [main  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+14-05-2020 22:26:16.000 [main  /  / / ] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4864 ms
+14-05-2020 22:26:19.131 [main  /  / / ] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.init - Filter 'logFilter' configured for use
+14-05-2020 22:26:20.529 [main  /  / / ] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+14-05-2020 22:26:20.762 [main  /  / / ] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+14-05-2020 22:26:21.452 [main  /  / / ] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+14-05-2020 22:26:23.472 [main  /  / / ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+14-05-2020 22:26:23.491 [main  /  / / ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+14-05-2020 22:26:23.542 [main  /  / / ] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+14-05-2020 22:26:23.794 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8082"]
+14-05-2020 22:26:23.821 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8082 (http) with context path ''
+14-05-2020 22:26:23.844 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStarted - Started AnagraficaApplication in 16.611 seconds (JVM running for 18.159)
+14-05-2020 22:26:25.030 [RMI TCP Connection(4)-127.0.0.1  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14-05-2020 22:26:25.032 [RMI TCP Connection(4)-127.0.0.1  /  / / ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+14-05-2020 22:26:25.045 [RMI TCP Connection(4)-127.0.0.1  /  / / ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 13 ms
+14-05-2020 22:32:01.398 [http-nio-8082-exec-1 magarellic / 77788889999 / 87dfae31435f22a7/ b59eb9798fbe02fb] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.beforeRequest - REQUEST DATA BEFORE :GET /api/anagrafica/E885588, headers=[accept-encoding:"gzip", user-agent:"ReactorNetty/0.9.6.RELEASE", host:"localhost:8082", accept:"*/*", requestid:"77788889999", userid:"magarellic", x-b3-traceid:"87dfae31435f22a7", x-b3-spanid:"b59eb9798fbe02fb", x-b3-parentspanid:"87dfae31435f22a7", x-b3-sampled:"0"]]
+14-05-2020 22:32:01.425 [http-nio-8082-exec-1 magarellic / 77788889999 / 87dfae31435f22a7/ b59eb9798fbe02fb] INFO  i.z.a.c.GenericHandlerInterceptor.preHandle - INTERCEPTOR PREHANDLE CALLED
+14-05-2020 22:32:01.458 [http-nio-8082-exec-1 magarellic / 77788889999 / 87dfae31435f22a7/ b59eb9798fbe02fb] INFO  i.z.a.c.AnagraficaController.getCliente - Sono nell' AnagraficaController del service : anagrafica
+14-05-2020 22:32:01.459 [http-nio-8082-exec-1 magarellic / 77788889999 / 87dfae31435f22a7/ b59eb9798fbe02fb] INFO  i.z.a.services.AnagraficaServiceImpl.getAnagrafica - Sono nel AnagraficaServiceImpl del service : quotazione. Common : {common.config}
+14-05-2020 22:32:01.459 [http-nio-8082-exec-1 magarellic / 77788889999 / 87dfae31435f22a7/ b59eb9798fbe02fb] INFO  i.z.a.services.AnagraficaServiceImpl.getAnagrafica - Sono nel AnagraficaServiceImpl del service : quotazione. Env : {env.config}
+14-05-2020 22:32:01.460 [http-nio-8082-exec-1 magarellic / 77788889999 / 87dfae31435f22a7/ b59eb9798fbe02fb] INFO  i.z.a.c.AnagraficaController.getCliente - Anagrafica  : E885588
+14-05-2020 22:32:01.502 [http-nio-8082-exec-1 magarellic / 77788889999 / 87dfae31435f22a7/ b59eb9798fbe02fb] INFO  i.z.a.c.GenericHandlerInterceptor.postHandle - INTERCEPTOR POSTHANDLE CALLED
+14-05-2020 22:32:01.508 [http-nio-8082-exec-1 magarellic / 77788889999 / 87dfae31435f22a7/ b59eb9798fbe02fb] INFO  i.z.a.c.GenericHandlerInterceptor.afterCompletion - INTERCEPTOR AFTERCOMPLETION CALLED
+14-05-2020 22:32:01.515 [http-nio-8082-exec-1 magarellic / 77788889999 / 87dfae31435f22a7/ b59eb9798fbe02fb] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.afterRequest - REQUEST DATA AFTER: GET /api/anagrafica/E885588, headers=[accept-encoding:"gzip", user-agent:"ReactorNetty/0.9.6.RELEASE", host:"localhost:8082", accept:"*/*", requestid:"77788889999", userid:"magarellic", x-b3-traceid:"87dfae31435f22a7", x-b3-spanid:"b59eb9798fbe02fb", x-b3-parentspanid:"87dfae31435f22a7", x-b3-sampled:"0"]]
+14-05-2020 22:34:47.580 [RMI TCP Connection(22)-127.0.0.1  /  / / ] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+14-05-2020 22:34:47.636 [RMI TCP Connection(22)-127.0.0.1  /  / / ] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+14-05-2020 22:34:47.704 [RMI TCP Connection(22)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-8082"]
+14-05-2020 22:34:47.707 [RMI TCP Connection(22)-127.0.0.1  /  / / ] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+14-05-2020 22:34:47.709 [RMI TCP Connection(22)-127.0.0.1  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14-05-2020 22:34:47.717 [RMI TCP Connection(22)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8082"]
+14-05-2020 22:34:47.721 [RMI TCP Connection(22)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-8082"]
+14-05-2020 23:01:52.033 [main  /  / / ] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator.getRemoteEnvironment - Fetching config from server at : http://localhost:8060
+14-05-2020 23:01:53.219 [main  /  / / ] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator.log - Located environment: name=anagrafica-service, profiles=[svi], label=null, version=d768826235b34b5c067be0a553b51f1c80da802e, state=null
+14-05-2020 23:01:53.222 [main  /  / / ] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration.initialize - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/MagarelliC/config-repository.git/application.properties'}]
+14-05-2020 23:01:53.344 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStartupProfileInfo - The following profiles are active: svi
+14-05-2020 23:01:56.301 [main  /  / / ] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=41b87b6f-195c-3dd7-bc8e-cb3fc2588e52
+14-05-2020 23:01:56.804 [main  /  / / ] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'spring.sleuth.redis-org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties' of type [org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14-05-2020 23:01:57.524 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+14-05-2020 23:01:57.540 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8082"]
+14-05-2020 23:01:57.541 [main  /  / / ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+14-05-2020 23:01:57.542 [main  /  / / ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+14-05-2020 23:01:57.724 [main  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+14-05-2020 23:01:57.726 [main  /  / / ] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4340 ms
+14-05-2020 23:02:00.032 [main  /  / / ] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.init - Filter 'logFilter' configured for use
+14-05-2020 23:02:01.315 [main  /  / / ] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+14-05-2020 23:02:01.594 [main  /  / / ] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+14-05-2020 23:02:01.890 [main  /  / / ] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+14-05-2020 23:02:03.663 [main  /  / / ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+14-05-2020 23:02:03.683 [main  /  / / ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+14-05-2020 23:02:03.720 [main  /  / / ] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+14-05-2020 23:02:03.984 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8082"]
+14-05-2020 23:02:04.009 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8082 (http) with context path ''
+14-05-2020 23:02:04.061 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStarted - Started AnagraficaApplication in 14.354 seconds (JVM running for 16.244)
+14-05-2020 23:02:04.658 [RMI TCP Connection(10)-127.0.0.1  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14-05-2020 23:02:04.659 [RMI TCP Connection(10)-127.0.0.1  /  / / ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+14-05-2020 23:02:04.701 [RMI TCP Connection(10)-127.0.0.1  /  / / ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 41 ms
+14-05-2020 23:02:38.454 [http-nio-8082-exec-1 magarellic / 77788889999 / 434c85f13e75e90e/ bbb16c560111f3a7] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.beforeRequest - REQUEST DATA BEFORE :GET /api/anagrafica/E885588, headers=[accept-encoding:"gzip", user-agent:"ReactorNetty/0.9.6.RELEASE", host:"localhost:8082", accept:"*/*", requestid:"77788889999", userid:"magarellic", x-b3-traceid:"434c85f13e75e90e", x-b3-spanid:"bbb16c560111f3a7", x-b3-parentspanid:"434c85f13e75e90e", x-b3-sampled:"0"]]
+14-05-2020 23:02:38.492 [http-nio-8082-exec-1 magarellic / 77788889999 / 434c85f13e75e90e/ bbb16c560111f3a7] INFO  i.z.a.c.GenericHandlerInterceptor.preHandle - INTERCEPTOR PREHANDLE CALLED
+14-05-2020 23:02:38.521 [http-nio-8082-exec-1 magarellic / 77788889999 / 434c85f13e75e90e/ bbb16c560111f3a7] INFO  i.z.a.c.AnagraficaController.getCliente - Sono nell' AnagraficaController del service : anagrafica
+14-05-2020 23:02:38.523 [http-nio-8082-exec-1 magarellic / 77788889999 / 434c85f13e75e90e/ bbb16c560111f3a7] INFO  i.z.a.services.AnagraficaServiceImpl.getAnagrafica - Sono nel AnagraficaServiceImpl del service : quotazione. Common : {common.config}
+14-05-2020 23:02:38.524 [http-nio-8082-exec-1 magarellic / 77788889999 / 434c85f13e75e90e/ bbb16c560111f3a7] INFO  i.z.a.services.AnagraficaServiceImpl.getAnagrafica - Sono nel AnagraficaServiceImpl del service : quotazione. Env : {env.config}
+14-05-2020 23:02:38.526 [http-nio-8082-exec-1 magarellic / 77788889999 / 434c85f13e75e90e/ bbb16c560111f3a7] INFO  i.z.a.c.AnagraficaController.getCliente - Anagrafica  : E885588
+14-05-2020 23:02:38.590 [http-nio-8082-exec-1 magarellic / 77788889999 / 434c85f13e75e90e/ bbb16c560111f3a7] INFO  i.z.a.c.GenericHandlerInterceptor.postHandle - INTERCEPTOR POSTHANDLE CALLED
+14-05-2020 23:02:38.594 [http-nio-8082-exec-1 magarellic / 77788889999 / 434c85f13e75e90e/ bbb16c560111f3a7] INFO  i.z.a.c.GenericHandlerInterceptor.afterCompletion - INTERCEPTOR AFTERCOMPLETION CALLED
+14-05-2020 23:02:38.609 [http-nio-8082-exec-1 magarellic / 77788889999 / 434c85f13e75e90e/ bbb16c560111f3a7] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.afterRequest - REQUEST DATA AFTER: GET /api/anagrafica/E885588, headers=[accept-encoding:"gzip", user-agent:"ReactorNetty/0.9.6.RELEASE", host:"localhost:8082", accept:"*/*", requestid:"77788889999", userid:"magarellic", x-b3-traceid:"434c85f13e75e90e", x-b3-spanid:"bbb16c560111f3a7", x-b3-parentspanid:"434c85f13e75e90e", x-b3-sampled:"0"]]
+14-05-2020 23:06:21.877 [RMI TCP Connection(16)-127.0.0.1  /  / / ] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+14-05-2020 23:06:21.919 [RMI TCP Connection(16)-127.0.0.1  /  / / ] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+14-05-2020 23:06:21.986 [RMI TCP Connection(16)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-8082"]
+14-05-2020 23:06:21.989 [RMI TCP Connection(16)-127.0.0.1  /  / / ] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+14-05-2020 23:06:21.994 [RMI TCP Connection(16)-127.0.0.1  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14-05-2020 23:06:22.004 [RMI TCP Connection(16)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8082"]
+14-05-2020 23:06:22.013 [RMI TCP Connection(16)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-8082"]
+14-05-2020 23:07:49.466 [main  /  / / ] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator.getRemoteEnvironment - Fetching config from server at : http://localhost:8060
+14-05-2020 23:07:50.544 [main  /  / / ] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator.log - Located environment: name=anagrafica-service, profiles=[svi], label=null, version=d768826235b34b5c067be0a553b51f1c80da802e, state=null
+14-05-2020 23:07:50.547 [main  /  / / ] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration.initialize - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/MagarelliC/config-repository.git/application.properties'}]
+14-05-2020 23:07:50.646 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStartupProfileInfo - The following profiles are active: svi
+14-05-2020 23:07:53.978 [main  /  / / ] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=46b8cc66-2a11-39d4-9e2a-59d16b25d6e2
+14-05-2020 23:07:54.845 [main  /  / / ] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'spring.sleuth.redis-org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties' of type [org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14-05-2020 23:07:55.461 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+14-05-2020 23:07:55.473 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8082"]
+14-05-2020 23:07:55.473 [main  /  / / ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+14-05-2020 23:07:55.474 [main  /  / / ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+14-05-2020 23:07:55.675 [main  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+14-05-2020 23:07:55.677 [main  /  / / ] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4933 ms
+14-05-2020 23:07:57.534 [main  /  / / ] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.init - Filter 'logFilter' configured for use
+14-05-2020 23:07:59.224 [main  /  / / ] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+14-05-2020 23:07:59.719 [main  /  / / ] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+14-05-2020 23:08:00.344 [main  /  / / ] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+14-05-2020 23:08:02.161 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14-05-2020 23:08:02.168 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+14-05-2020 23:08:02.218 [RMI TCP Connection(3)-127.0.0.1  /  / / ] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 48 ms
+14-05-2020 23:08:02.350 [main  /  / / ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+14-05-2020 23:08:02.461 [main  /  / / ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+14-05-2020 23:08:02.546 [main  /  / / ] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+14-05-2020 23:08:02.964 [main  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8082"]
+14-05-2020 23:08:03.027 [main  /  / / ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8082 (http) with context path ''
+14-05-2020 23:08:03.112 [main  /  / / ] INFO  i.z.anagrafica.AnagraficaApplication.logStarted - Started AnagraficaApplication in 16.398 seconds (JVM running for 17.981)
+14-05-2020 23:08:09.204 [http-nio-8082-exec-1 magarellic / 7888974152185412 / 2e28d74dea0f7ee2/ 2e28d74dea0f7ee2] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.beforeRequest - REQUEST DATA BEFORE :GET /api/anagrafica/1111, headers=[requestid:"7888974152185412", userid:"magarellic", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"fbbb3e81-52d0-4d33-a3f4-033a01b0b54d", host:"localhost:8082", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"]]
+14-05-2020 23:08:09.228 [http-nio-8082-exec-1 magarellic / 7888974152185412 / 2e28d74dea0f7ee2/ 2e28d74dea0f7ee2] INFO  i.z.a.c.GenericHandlerInterceptor.preHandle - INTERCEPTOR PREHANDLE CALLED
+14-05-2020 23:08:09.354 [http-nio-8082-exec-1 magarellic / 7888974152185412 / 2e28d74dea0f7ee2/ 2e28d74dea0f7ee2] INFO  i.z.a.c.AnagraficaController.getCliente - Sono nell' AnagraficaController del service : anagrafica
+14-05-2020 23:08:09.362 [http-nio-8082-exec-1 magarellic / 7888974152185412 / 2e28d74dea0f7ee2/ 2e28d74dea0f7ee2] INFO  i.z.a.services.AnagraficaServiceImpl.getAnagrafica - Sono nel AnagraficaServiceImpl del service : quotazione. Common : A common configuration 1
+14-05-2020 23:08:09.363 [http-nio-8082-exec-1 magarellic / 7888974152185412 / 2e28d74dea0f7ee2/ 2e28d74dea0f7ee2] INFO  i.z.a.services.AnagraficaServiceImpl.getAnagrafica - Sono nel AnagraficaServiceImpl del service : quotazione. Env : A common env 1
+14-05-2020 23:08:09.363 [http-nio-8082-exec-1 magarellic / 7888974152185412 / 2e28d74dea0f7ee2/ 2e28d74dea0f7ee2] INFO  i.z.a.c.AnagraficaController.getCliente - Anagrafica  : 1111
+14-05-2020 23:08:09.585 [http-nio-8082-exec-1 magarellic / 7888974152185412 / 2e28d74dea0f7ee2/ 2e28d74dea0f7ee2] INFO  i.z.a.c.GenericHandlerInterceptor.postHandle - INTERCEPTOR POSTHANDLE CALLED
+14-05-2020 23:08:09.587 [http-nio-8082-exec-1 magarellic / 7888974152185412 / 2e28d74dea0f7ee2/ 2e28d74dea0f7ee2] INFO  i.z.a.c.GenericHandlerInterceptor.afterCompletion - INTERCEPTOR AFTERCOMPLETION CALLED
+14-05-2020 23:08:09.604 [http-nio-8082-exec-1 magarellic / 7888974152185412 / 2e28d74dea0f7ee2/ 2e28d74dea0f7ee2] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.afterRequest - REQUEST DATA AFTER: GET /api/anagrafica/1111, headers=[requestid:"7888974152185412", userid:"magarellic", user-agent:"PostmanRuntime/7.24.1", accept:"*/*", postman-token:"fbbb3e81-52d0-4d33-a3f4-033a01b0b54d", host:"localhost:8082", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"11", Content-Type:"application/json;charset=UTF-8"]]
+14-05-2020 23:10:50.857 [RMI TCP Connection(13)-127.0.0.1  /  / / ] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+14-05-2020 23:10:50.910 [RMI TCP Connection(13)-127.0.0.1  /  / / ] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+14-05-2020 23:10:50.949 [RMI TCP Connection(13)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-8082"]
+14-05-2020 23:10:50.951 [RMI TCP Connection(13)-127.0.0.1  /  / / ] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+14-05-2020 23:10:50.955 [RMI TCP Connection(13)-127.0.0.1  /  / / ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Destroying Spring FrameworkServlet 'dispatcherServlet'
+14-05-2020 23:10:50.970 [RMI TCP Connection(13)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8082"]
+14-05-2020 23:10:50.986 [RMI TCP Connection(13)-127.0.0.1  /  / / ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-8082"]

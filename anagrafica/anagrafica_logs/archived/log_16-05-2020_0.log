@@ -1,0 +1,74 @@
+18-05-2020 08:09:04.268 [main ri:   ui:   ti:   si: ] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator.getRemoteEnvironment - Fetching config from server at : http://localhost:8060
+18-05-2020 08:09:07.168 [main ri:   ui:   ti:   si: ] INFO  o.s.c.c.c.ConfigServicePropertySourceLocator.log - Located environment: name=anagrafica-service, profiles=[svi], label=null, version=32a06c6b33630a5dd1f5baa2be1e9cc733115909, state=null
+18-05-2020 08:09:07.188 [main ri:   ui:   ti:   si: ] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration.initialize - Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/MagarelliC/config-repository.git/application.properties'}]
+18-05-2020 08:09:07.480 [main ri:   ui:   ti:   si: ] INFO  i.z.anagrafica.AnagraficaApplication.logStartupProfileInfo - The following profiles are active: svi
+18-05-2020 08:09:15.183 [main ri:   ui:   ti:   si: ] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=46b8cc66-2a11-39d4-9e2a-59d16b25d6e2
+18-05-2020 08:09:16.855 [main ri:   ui:   ti:   si: ] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'spring.sleuth.redis-org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties' of type [org.springframework.cloud.sleuth.instrument.redis.TraceRedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+18-05-2020 08:09:18.849 [main ri:   ui:   ti:   si: ] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8082 (http)
+18-05-2020 08:09:18.895 [main ri:   ui:   ti:   si: ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8082"]
+18-05-2020 08:09:18.903 [main ri:   ui:   ti:   si: ] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+18-05-2020 08:09:18.904 [main ri:   ui:   ti:   si: ] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.33]
+18-05-2020 08:09:19.572 [main ri:   ui:   ti:   si: ] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+18-05-2020 08:09:19.580 [main ri:   ui:   ti:   si: ] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 11998 ms
+18-05-2020 08:09:24.965 [main ri:   ui:   ti:   si: ] DEBUG i.z.a.c.AnagraficaRequestLoggingFilter.init - Filter 'logFilter' configured for use
+18-05-2020 08:09:27.060 [main ri:   ui:   ti:   si: ] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+18-05-2020 08:09:27.810 [main ri:   ui:   ti:   si: ] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+18-05-2020 08:09:29.066 [main ri:   ui:   ti:   si: ] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+18-05-2020 08:09:32.839 [main ri:   ui:   ti:   si: ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+18-05-2020 08:09:32.879 [main ri:   ui:   ti:   si: ] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+18-05-2020 08:09:33.084 [main ri:   ui:   ti:   si: ] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+18-05-2020 08:09:34.108 [main ri:   ui:   ti:   si: ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8082"]
+18-05-2020 08:09:34.145 [main ri:   ui:   ti:   si: ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-8082"]
+18-05-2020 08:09:34.145 [main ri:   ui:   ti:   si: ] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+18-05-2020 08:09:34.189 [main ri:   ui:   ti:   si: ] WARN  o.a.c.loader.WebappClassLoaderBase.log - The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.7/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:458)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:256)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@11.0.7/java.lang.Thread.run(Thread.java:834)
+18-05-2020 08:09:34.205 [main ri:   ui:   ti:   si: ] WARN  o.a.c.loader.WebappClassLoaderBase.log - The web application [ROOT] appears to have started a thread named [lettuce-eventExecutorLoop-1-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.7/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:458)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:256)
+ app//io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:64)
+ app//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+ app//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+ app//io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+ java.base@11.0.7/java.lang.Thread.run(Thread.java:834)
+18-05-2020 08:09:34.220 [main ri:   ui:   ti:   si: ] WARN  o.a.c.loader.WebappClassLoaderBase.log - The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.7/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.7/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+ java.base@11.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.7/java.lang.Thread.run(Thread.java:834)
+18-05-2020 08:09:34.233 [main ri:   ui:   ti:   si: ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8082"]
+18-05-2020 08:09:34.239 [main ri:   ui:   ti:   si: ] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-8082"]
+18-05-2020 08:09:34.261 [main ri:   ui:   ti:   si: ] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+18-05-2020 08:09:34.310 [main ri:   ui:   ti:   si: ] WARN  o.s.b.f.s.DisposableBeanAdapter.destroy - Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException
+18-05-2020 08:09:34.316 [main ri:   ui:   ti:   si: ] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+18-05-2020 08:09:34.551 [main ri:   ui:   ti:   si: ] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+

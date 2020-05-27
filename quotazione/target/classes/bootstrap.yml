@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: quotazione
+  cloud:
+    config:
+     uri: http://10.110.113.118:8060

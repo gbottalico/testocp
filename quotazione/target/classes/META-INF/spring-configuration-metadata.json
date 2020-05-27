@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "",
+      "type": "it.zurich.quotazione.config.ApplicationPropertiesConfig",
+      "sourceType": "it.zurich.quotazione.config.ApplicationPropertiesConfig"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
